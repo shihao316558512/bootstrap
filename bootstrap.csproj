@@ -62,6 +62,15 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="top-right3.html" />
+    <Content Include="top-right2.html" />
+    <Content Include="top-right1.html" />
+    <Content Include="left3.html" />
+    <Content Include="left2.html" />
+    <Content Include="left1.html" />
+    <Content Include="top3.html" />
+    <Content Include="top2.html" />
+    <Content Include="top1.html" />
     <Content Include="Styles\default.css" />
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
