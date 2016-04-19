@@ -59,7 +59,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.DateRangePicker\daterangepicker.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="image\forkme.png" />
+    <Content Include="js\bootstrap.DateRangePicker\daterangepicker.js" />
+    <Content Include="js\bootstrap.DateRangePicker\moment.min.js" />
+    <Content Include="plugs.html" />
     <Content Include="top-right3.html" />
     <Content Include="top-right2.html" />
     <Content Include="top-right1.html" />
@@ -75,7 +80,6 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.html" />
-    <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
