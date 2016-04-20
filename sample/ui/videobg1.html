@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <style>
+        html, body { margin: 0; width: 100%; height: 100%; }
+
+        .center-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; text-align: center; overflow: auto; }
+
+        .center-container:after,
+        .center-block { display: inline-block; vertical-align: middle; }
+
+        .center-container:after { content: ''; height: 100%; margin-left: -0.25em; /* To offset spacing. May vary by font */ }
+
+        .center-block { max-width: 98%; /* Prevents issues with long content causes the content block to be pushed to the top */ /* max-width: calc(100% - 0.25em) /* Only for IE9+ */ }
+        h1, h2 { color: #fff; }
+    </style>
+</head>
+<body data-vide-bg="../../video/ocean">
+    <div class="center-container">
+        <div class="center-block">
+            <h1>VIDE</h1>
+            <br>
+            <h2>Easy as hell jQuery plugin for video backgrounds</h2>
+        </div>
+    </div>
+    <script src="../../js/jquery-1.9.1.min.js"></script>
+    <script src="../../js/vide/jquery.vide.js"></script>
+    <script>
+        // $(document).ready(function () {
+        //   $(document.body).vide('video/ocean'); // Non declarative initialization
+        //
+        //   var instance = $(document.body).data('vide'); // Get the instance
+        //   var video = instance.getVideoObject(); // Get the video object
+        //   instance.destroy(); // Destroy instance
+        // });
+    </script>
+</body>
+</html>
