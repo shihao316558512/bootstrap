@@ -62,6 +62,8 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\bootstrap.sweetalert\sweet-alert.css" />
     <Content Include="css\default.css" />
+    <Content Include="css\metisMenu\demo.css" />
+    <Content Include="css\metisMenu\metisMenu.min.css" />
     <Content Include="css\toastr\toastr.min.css" />
     <Content Include="image\forkme.png" />
     <Content Include="js\bootstrap.DateRangePicker\daterangepicker.js" />
@@ -72,6 +74,7 @@
     <Content Include="js\html5shiv.min.js" />
     <Content Include="js\jquery-1.9.1.min.js" />
     <Content Include="js\jquery.extend.js" />
+    <Content Include="js\metisMenu\metisMenu.min.js" />
     <Content Include="js\respond.min.js" />
     <Content Include="js\scrolltopcontrol.js" />
     <Content Include="js\toastr\toastr.min.js" />
@@ -100,6 +103,7 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="uis.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

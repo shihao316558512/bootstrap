@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" />
+    <!--jquery库-->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <!--bootstrap库-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!--font-awesome字体库-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!--平滑滚动到顶部库-->
+    <script src="js/scrolltopcontrol.js" type="text/javascript"></script>
+    <!--主要写的jquery拓展方法-->
+    <script src="js/jquery.extend.js" type="text/javascript"></script>
+    <!--主要写的css代码-->
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <!--主要写的js代码-->
+    <script src="js/default.js" type="text/javascript"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle show pull-left" data-target="sidebar">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Bootstrap</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="top1.html">top1.html</a></li>
+                    <li><a href="top2.html">top2.html</a></li>
+                    <li><a href="top3.html">top3.html</a></li>
+                    <li><a href="https://github.com/shihao316558512/bootstrap" target="_blank"><i class="fa fa-download"></i>&nbsp;原码下载</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-expanded="false"><i class="fa fa-user"></i>&nbsp;小王&nbsp;<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="top-right1.html">top-right1.html</a></li>
+                            <li class="divider"></li>
+                            <li><a href="top-right2.html">top-right2.html</a></li>
+                            <li class="divider"></li>
+                            <li><a href="top-right3.html"><i class="fa fa-sign-out"></i>&nbsp;top-right3.html</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid all">
+        <div class="sidebar">
+            <ul class="nav">
+                <li><a href="index.html">主页面</a></li>
+                <li><a href="plugs.html">插件库</a></li>
+                <li><a href="uis.html">UI库</a></li>
+                <li class="has-sub">
+                    <a href="javascript:void(0);"><span>测试页面</span><i class="fa fa-caret-right pull-right"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="left1.html"><i class="fa fa-circle-o"></i>&nbsp;left1</a></li>
+                        <li><a href="left2.html"><i class="fa fa-circle-o"></i>&nbsp;left2</a></li>
+                        <li><a href="left3.html"><i class="fa fa-circle-o"></i>&nbsp;left3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="maincontent row form-horizontal">
+            <ul class="breadcrumb">
+                <li class="active">UI库</li>
+            </ul>
+            <!--我是主要内容 start-->
+            <div class="col-sm-12">
+                <!--时间范围选择插件start-->
+                <div class="row" id="ui-menu1">
+                    <div class="page-header text-center">
+                        <h2>bootstrap菜单插件</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    metisMenu
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="http://mm.onokumus.com/" class="btn btn-info" target="_blank">http://mm.onokumus.com/</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-1 control-label">特殊说明</label>
+                            <div class="col-sm-11">
+                                <p class="form-control-static">要想出现下面效果，需要引用bootstrap和font-awesome等库，详细的可以参考官网的样例</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/metisMenu/metisMenu.min.css" rel="stylesheet" />
+                    <link href="css/metisMenu/demo.css" rel="stylesheet" />
+                    <script src="js/metisMenu/metisMenu.min.js"></script>
+                    <script>
+                        $(function () {
+                            $('#menu').metisMenu();
+                        });
+                    </script>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
+                            <div class="col-sm-10" id="ui1">
+                                <aside class="sidebar1">
+                                    <nav class="sidebar-nav">
+                                        <ul class="metismenu" id="menu">
+                                            <li class="active">
+                                                <a href="#" aria-expanded="true">
+                                                    <span class="sidebar-nav-item-icon fa fa-github fa-lg"></span>
+                                                    <span class="sidebar-nav-item">metisMenu</span>
+                                                    <span class="fa arrow"></span>
+                                                </a>
+                                                <ul aria-expanded="true" class="collapse in">
+                                                    <li>
+                                                        <a href="#">
+                                                            <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                                            Fork
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span class="sidebar-nav-item-icon fa fa-star"></span>
+                                                            Star
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span class="sidebar-nav-item-icon fa fa-exclamation-triangle"></span>
+                                                            Issues
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="">
+                                                <a href="#" aria-expanded="true">Menu 0 <span class="fa arrow"></span></a>
+                                                <ul aria-expanded="false" class="collapse" style="height: 0px;">
+                                                    <li><a href="#">item 0.1</a></li>
+                                                    <li><a href="#">item 0.2</a></li>
+                                                    <li><a href="#">onokumus</a></li>
+                                                    <li><a href="#">item 0.4</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="">
+                                                <a href="#" aria-expanded="true">Menu 1 <span class="glyphicon arrow"></span></a>
+                                                <ul aria-expanded="false" class="collapse" style="height: 0px;">
+                                                    <li><a href="#">item 1.1</a></li>
+                                                    <li><a href="#">item 1.2</a></li>
+                                                    <li>
+                                                        <a href="#" aria-expanded="false">Menu 1.3 <span class="fa plus-times"></span></a>
+                                                        <ul aria-expanded="false" class="collapse">
+                                                            <li><a href="#">item 1.3.1</a></li>
+                                                            <li><a href="#">item 1.3.2</a></li>
+                                                            <li><a href="#">item 1.3.3</a></li>
+                                                            <li><a href="#">item 1.3.4</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">item 1.4</a></li>
+                                                    <li>
+                                                        <a href="#" aria-expanded="false">Menu 1.5 <span class="fa plus-minus"></span></a>
+                                                        <ul aria-expanded="false" class="collapse">
+                                                            <li><a href="#">item 1.5.1</a></li>
+                                                            <li><a href="#">item 1.5.2</a></li>
+                                                            <li><a href="#">item 1.5.3</a></li>
+                                                            <li><a href="#">item 1.5.4</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="">
+                                                <a href="#" aria-expanded="true">Menu 2 <span class="glyphicon arrow"></span></a>
+                                                <ul aria-expanded="false" class="collapse" style="height: 0px;">
+                                                    <li><a href="#">item 2.1</a></li>
+                                                    <li><a href="#">item 2.2</a></li>
+                                                    <li><a href="#">item 2.3</a></li>
+                                                    <li><a href="#">item 2.4</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--时间范围选择插件end-->
+            </div>
+            <!--我是主要内容 end-->
+        </div>
+    </div>
+    <a href="#top" id="goTop"><i class="fa fa-angle-up fa-3x"></i></a>
+    <a href="https://github.com/shihao316558512">
+        <img class="forkme" src="image/forkme.png" alt="Fork me on GitHub">
+    </a>
+</body>
+</html>
