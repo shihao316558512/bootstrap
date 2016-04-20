@@ -60,17 +60,21 @@
   <ItemGroup>
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\bootstrap.sweetalert\sweet-alert.css" />
     <Content Include="css\default.css" />
+    <Content Include="css\toastr\toastr.min.css" />
     <Content Include="image\forkme.png" />
     <Content Include="js\bootstrap.DateRangePicker\daterangepicker.js" />
     <Content Include="js\bootstrap.DateRangePicker\moment.min.js" />
     <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\bootstrap.sweetalert\sweet-alert.min.js" />
     <Content Include="js\default.js" />
     <Content Include="js\html5shiv.min.js" />
     <Content Include="js\jquery-1.9.1.min.js" />
     <Content Include="js\jquery.extend.js" />
     <Content Include="js\respond.min.js" />
     <Content Include="js\scrolltopcontrol.js" />
+    <Content Include="js\toastr\toastr.min.js" />
     <Content Include="plugs.html" />
     <Content Include="top-right3.html" />
     <Content Include="top-right2.html" />

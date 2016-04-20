@@ -76,71 +76,192 @@
                 </li>
             </ul>
         </div>
-        <div class="maincontent row">
+        <div class="maincontent row form-horizontal">
             <ul class="breadcrumb">
                 <li class="active">插件库</li>
             </ul>
             <!--我是主要内容 start-->
-            <div class="col-sm-12 form-horizontal">
-                <div class="page-header text-center" id="tool-datarangpicker">
-                    <h2>时间范围选择插件</h2>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
-                        <div class="col-sm-10">
-                            <p class="form-control-static">
-                                Date Range Picker
-                            </p>
+            <div class="col-sm-12">
+                <!--时间范围选择插件start-->
+                <div class="row" id="tool-datarangpicker">
+                    <div class="page-header text-center">
+                        <h2>bootstrap时间范围选择插件</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    Date Range Picker
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
-                        <div class="col-sm-10">
-                            <a href="http://www.daterangepicker.com/" class="btn btn-info" target="_blank">http://www.daterangepicker.com/</a>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="http://www.daterangepicker.com/" class="btn btn-info" target="_blank">http://www.daterangepicker.com/</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <link href="css/bootstrap.DateRangePicker/daterangepicker.css" rel="stylesheet" />
-                <script src="js/bootstrap.DateRangePicker/moment.min.js"></script>
-                <script src="js/bootstrap.DateRangePicker/daterangepicker.js"></script>
-                <script type="text/javascript">
-                    $(function () {
-                        $('#tbTime').daterangepicker({
-                            timePicker: true,
-                            timePickerIncrement: 30,
-                            locale: {
-                                format: 'YYYY/MM/DD'
-                            },
-                            startDate: $("#hidStartTime").val(),
-                            endDate: $("#hidEndTime").val()
-                        }, function (start, end, label) {
-                            $("#lbStartTime").html(start.format('YYYY/MM/DD'));
-                            $("#lbEndTime").html(end.format('YYYY/MM/DD'));
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-1 control-label">特殊说明</label>
+                            <div class="col-sm-11">
+                                <p class="form-control-static">该插件的样式依赖bootstrap库和font-awesome库，如果单独拿出去用后，记得把这俩依赖库加入项目中，否则会造成样式不正常</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/bootstrap.DateRangePicker/daterangepicker.css" rel="stylesheet" />
+                    <script src="js/bootstrap.DateRangePicker/moment.min.js"></script>
+                    <script src="js/bootstrap.DateRangePicker/daterangepicker.js"></script>
+                    <script type="text/javascript">
+                        $(function () {
+                            $('#tbTime').daterangepicker({
+                                timePicker: true,
+                                timePickerIncrement: 30,
+                                locale: {
+                                    format: 'YYYY/MM/DD'
+                                },
+                                startDate: $("#lbStartTime").html(),
+                                endDate: $("#lbEndTime").html()
+                            }, function (start, end, label) {
+                                $("#lbStartTime").html(start.format('YYYY/MM/DD'));
+                                $("#lbEndTime").html(end.format('YYYY/MM/DD'));
+                            });
                         });
-                    });
-                </script>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">选择日期范围</label>
-                        <div class="col-sm-10">
-                            <input type="text" id="tbTime" class="form-control" />
+                    </script>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
+                            <div class="col-sm-10">
+                                <input type="text" id="tbTime" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">结果</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    <label class="label label-danger" id="lbStartTime">2016/04/19</label>
+                                    <label class="label label-danger" id="lbEndTime">2016/05/19</label>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">结果</label>
-                        <div class="col-sm-10">
-                            <p class="form-control-static">
-                                <label class="label label-danger" id="lbStartTime"></label>
-                                <label class="label label-danger" id="lbEndTime"></label>
-                            </p>
+                <!--时间范围选择插件end-->
+                <!--通知插件1start-->
+                <div class="row" id="tool-msg1">
+                    <div class="page-header text-center" id="tool-datarangpicker">
+                        <h2>通知插件1</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    Toastr
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="http://codeseven.github.io/toastr/" class="btn btn-info" target="_blank">http://codeseven.github.io/toastr/</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">特殊说明</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">该插件有很多的使用效果，详见官网示例（如果打不开，记得翻墙）</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/toastr/toastr.min.css" rel="stylesheet" />
+                    <script src="js/toastr/toastr.min.js"></script>
+                    <style>
+                        .toast-top-right { top: 62px; }
+                    </style>
+                    <script>
+                        $(function () {
+                            $("#btnShowMsg1").click(function () {
+                                toastr.options = {
+                                    "progressBar": true
+                                }
+                                toastr.info('Are you the 6 fingered man?');
+                            })
+                        })
+                    </script>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
+                            <div class="col-sm-10">
+                                <a class="btn btn-info" id="btnShowMsg1">点我</a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!--通知插件1end-->
+                <!--通知插件2start-->
+                <div class="row" id="tool-msg2">
+                    <div class="page-header text-center" id="tool-datarangpicker">
+                        <h2>通知插件2</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    SweetAlert for Bootstrap
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="https://lipis.github.io/bootstrap-sweetalert/" class="btn btn-info" target="_blank">https://lipis.github.io/bootstrap-sweetalert/</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">特殊说明</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">该插件有很多的使用效果，详见官网示例（如果打不开，记得翻墙）</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/bootstrap.sweetalert/sweet-alert.css" rel="stylesheet" />
+                    <script src="js/bootstrap.sweetalert/sweet-alert.min.js"></script>
+                    <script>
+                        $(function () {
+                            $("#btnShowMsg2").click(function () {
+                                swal("Here's a message!");
+                            })
+                        })
+                    </script>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
+                            <div class="col-sm-10">
+                                <a class="btn btn-info" id="btnShowMsg2">点我</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--通知插件2end-->
             </div>
             <!--我是主要内容 end-->
         </div>
