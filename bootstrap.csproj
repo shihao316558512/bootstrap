@@ -61,10 +61,21 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.DateRangePicker\daterangepicker.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\bootstrap.sweetalert\sweet-alert.css" />
+    <Content Include="css\metisMenu\demo.css" />
+    <Content Include="css\metisMenu\metisMenu.min.css" />
+    <Content Include="css\toastr\toastr.min.css" />
     <Content Include="image\forkme.png" />
     <Content Include="js\bootstrap.DateRangePicker\daterangepicker.js" />
     <Content Include="js\bootstrap.DateRangePicker\moment.min.js" />
+    <Content Include="js\bootstrap.sweetalert\sweet-alert.min.js" />
+    <Content Include="js\metisMenu\metisMenu.min.js" />
+    <Content Include="js\toastr\toastr.min.js" />
+    <Content Include="js\vide\jquery.vide.js" />
     <Content Include="plugs.html" />
+    <Content Include="sample\ui\menu1.html" />
+    <Content Include="sample\ui\videobg1.html" />
+    <Content Include="sample\ui\videobg2.html" />
     <Content Include="top-right3.html" />
     <Content Include="top-right2.html" />
     <Content Include="top-right1.html" />
@@ -96,12 +107,17 @@
     <Content Include="js\jquery.extend.js" />
     <Content Include="js\respond.min.js" />
     <Content Include="js\scrolltopcontrol.js" />
+    <Content Include="uis.html" />
+    <Content Include="video\ocean.jpg" />
+    <Content Include="video\ocean.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="video\ocean.ogv" />
+    <Content Include="video\ocean.webm" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

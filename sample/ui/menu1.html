@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" />
+    <!--jquery库-->
+    <script src="../../js/jquery-1.9.1.min.js"></script>
+    <!--bootstrap库-->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../../js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+      <script src="../../js/respond.min.js"></script>
+    <![endif]-->
+    <!--font-awesome字体库-->
+    <link href="../../css/font-awesome.min.css" rel="stylesheet" />
+    <!--菜单插件库-->
+    <link href="../../css/metisMenu/metisMenu.min.css" rel="stylesheet" />
+    <link href="../../css/metisMenu/demo.css" rel="stylesheet" />
+    <script src="../../js/metisMenu/metisMenu.min.js"></script>
+    <script>
+        $(function () {
+            $('#menu').metisMenu();
+        });
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">metisMenu</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Vertical Menu</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="clearfix">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="metismenu" id="menu">
+                    <li class="active">
+                        <a href="#" aria-expanded="true">
+                            <span class="sidebar-nav-item-icon fa fa-github fa-lg"></span>
+                            <span class="sidebar-nav-item">metisMenu</span>
+                            <span class="fa arrow"></span>
+                        </a>
+                        <ul aria-expanded="true" class="collapse in">
+                            <li>
+                                <a href="#">
+                                    <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                    Fork
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="sidebar-nav-item-icon fa fa-star"></span>
+                                    Star
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="sidebar-nav-item-icon fa fa-exclamation-triangle"></span>
+                                    Issues
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" aria-expanded="false">Menu 0 <span class="fa arrow"></span></a>
+                        <ul aria-expanded="false" class="collapse">
+                            <li><a href="#">item 0.1</a></li>
+                            <li><a href="#">item 0.2</a></li>
+                            <li><a href="#">onokumus</a></li>
+                            <li><a href="#">item 0.4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" aria-expanded="false">Menu 1 <span class="glyphicon arrow"></span></a>
+                        <ul aria-expanded="false" class="collapse">
+                            <li><a href="#">item 1.1</a></li>
+                            <li><a href="#">item 1.2</a></li>
+                            <li>
+                                <a href="#" aria-expanded="false">Menu 1.3 <span class="fa plus-times"></span></a>
+                                <ul aria-expanded="false" class="collapse">
+                                    <li><a href="#">item 1.3.1</a></li>
+                                    <li><a href="#">item 1.3.2</a></li>
+                                    <li><a href="#">item 1.3.3</a></li>
+                                    <li><a href="#">item 1.3.4</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">item 1.4</a></li>
+                            <li>
+                                <a href="#" aria-expanded="false">Menu 1.5 <span class="fa plus-minus"></span></a>
+                                <ul aria-expanded="false" class="collapse">
+                                    <li><a href="#">item 1.5.1</a></li>
+                                    <li><a href="#">item 1.5.2</a></li>
+                                    <li><a href="#">item 1.5.3</a></li>
+                                    <li><a href="#">item 1.5.4</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" aria-expanded="false">Menu 2 <span class="glyphicon arrow"></span></a>
+                        <ul aria-expanded="false" class="collapse">
+                            <li><a href="#">item 2.1</a></li>
+                            <li><a href="#">item 2.2</a></li>
+                            <li><a href="#">item 2.3</a></li>
+                            <li><a href="#">item 2.4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="content">
+            <div class="col-xs-12">
+                <h3>
+                    Auto Collapse
+                    <small>default</small>
+                </h3>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Code
+                        <span class="pull-right">
+                            <span class="fa fa-code"></span>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <pre class=" language-markup"><code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>metisMenu.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script language-javascript">
+                        <span class="token function">$</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                        <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#menu'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">metisMenu</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
