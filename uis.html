@@ -84,7 +84,7 @@
             <!--我是主要内容 start-->
             <div class="col-sm-12">
                 <!--菜单1start-->
-                <div class="row" id="ui-menu1">
+                <div class="row" id="ui-metisMenu">
                     <div class="page-header text-center">
                         <h2>bootstrap菜单插件</h2>
                     </div>
@@ -127,7 +127,7 @@
                 </div>
                 <!--菜单1end-->
                 <!--视频背景1start-->
-                <div class="row" id="ui-videobg">
+                <div class="row" id="ui-vide">
                     <div class="page-header text-center">
                         <h2>视频作为背景</h2>
                     </div>
@@ -169,6 +169,141 @@
                     </div>
                 </div>
                 <!--菜单1end-->
+                <!--wow特效start-->
+                <div class="row" id="ui-wow">
+                    <div class="page-header text-center">
+                        <h2>动画特效1</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    WOW.js
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="http://mynameismatthieu.com/WOW/index.html" class="btn btn-info" target="_blank">http://mynameismatthieu.com/WOW/index.html</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-1 control-label">特殊说明</label>
+                            <div class="col-sm-11">
+                                <p class="form-control-static">注意：如果将该插件用在<label class="label label-danger">商业项目</label>中，最好是付费后用哦。详细看官网</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/wow/animate.css" rel="stylesheet" />
+                    <script src="js/wow/wow.min.js"></script>
+                    <script>
+                        $(function () {
+                            new WOW().init();
+                        })
+                    </script>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
+                            <div class="col-sm-10">
+                                <div class="wow rollIn" data-wow-offset="10" data-wow-iteration="10" ata-wow-delay="0.5s" style="background-color:deeppink; width:100px; height:100px;color:#fff;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--wow特效end-->
+                <!--hover特效start-->
+                <div class="row" id="ui-hover">
+                    <div class="page-header text-center">
+                        <h2>CSS特效1</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    Hover.css
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="http://ianlunn.github.io/Hover/" class="btn btn-info" target="_blank">http://ianlunn.github.io/Hover/</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/hover/hover-min.css" rel="stylesheet" />
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
+                            <div class="col-sm-10">
+                                <a href="#" class="hvr-sweep-to-right" style="width:100px; height:50px; text-decoration:none; color:dimgray; border:1px solid #808080;"></a>
+                                <a href="#" class="hvr-icon-down" style="width:100px; height:50px; text-decoration:none; color:dimgray; border:1px solid #808080;">Icon Down</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--hover特效end-->
+                <!--animo特效库start-->
+                <div class="row" id="ui-animo">
+                    <div class="page-header text-center">
+                        <h2>动画特效2</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    animo.js
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="http://labs.bigroomstudios.com/libraries/animo-js" class="btn btn-info" target="_blank">http://labs.bigroomstudios.com/libraries/animo-js</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/animo/animate-animo.min.css" rel="stylesheet" />
+                    <script src="js/animo/animo.min.js"></script>
+                    <script>
+                        $(function () {
+                            $("#btnAnimoTest").click(function () {
+                                $('#divAnimoTest').animo({ animation: 'tada' });
+                            })
+                        })
+                    </script>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
+                            <div class="col-sm-10">
+                                <div class="col-sm-6">
+                                    <div id="divAnimoTest" style="background-color:gray; width:100px; height:100px;">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a class="btn btn-primary" id="btnAnimoTest">点我，然后看左侧</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--animo特效库end-->
             </div>
             <!--我是主要内容 end-->
         </div>

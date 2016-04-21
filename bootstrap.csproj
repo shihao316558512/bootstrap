@@ -58,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\animo\animate-animo.min.css" />
     <Content Include="css\bootstrap.colorpicker\css\bootstrap-colorpicker.min.css" />
     <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\alpha-horizontal.png" />
     <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\alpha.png" />
@@ -69,10 +70,13 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\bootstrap.sweetalert\sweet-alert.css" />
     <Content Include="css\default.css" />
+    <Content Include="css\hover\hover-min.css" />
     <Content Include="css\metisMenu\demo.css" />
     <Content Include="css\metisMenu\metisMenu.min.css" />
     <Content Include="css\toastr\toastr.min.css" />
+    <Content Include="css\wow\animate.css" />
     <Content Include="image\forkme.png" />
+    <Content Include="js\animo\animo.min.js" />
     <Content Include="js\bootstrap.colorpicker\bootstrap-colorpicker.min.js" />
     <Content Include="js\bootstrap.DateRangePicker\daterangepicker.js" />
     <Content Include="js\bootstrap.DateRangePicker\moment.min.js" />
@@ -87,6 +91,7 @@
     <Content Include="js\respond.min.js" />
     <Content Include="js\scrolltopcontrol.js" />
     <Content Include="js\toastr\toastr.min.js" />
+    <Content Include="js\wow\wow.min.js" />
     <Content Include="plugs.html" />
     <Content Include="sample\ui\menu1.html" />
     <Content Include="sample\ui\videobg1.html" />
