@@ -58,6 +58,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap.colorpicker\css\bootstrap-colorpicker.min.css" />
+    <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\alpha-horizontal.png" />
+    <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\alpha.png" />
+    <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\hue-horizontal.png" />
+    <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\hue.png" />
+    <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\saturation.png" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.DateRangePicker\daterangepicker.css" />
     <Content Include="css\bootstrap.min.css" />
@@ -66,6 +72,7 @@
     <Content Include="css\metisMenu\metisMenu.min.css" />
     <Content Include="css\toastr\toastr.min.css" />
     <Content Include="image\forkme.png" />
+    <Content Include="js\bootstrap.colorpicker\bootstrap-colorpicker.min.js" />
     <Content Include="js\bootstrap.DateRangePicker\daterangepicker.js" />
     <Content Include="js\bootstrap.DateRangePicker\moment.min.js" />
     <Content Include="js\bootstrap.sweetalert\sweet-alert.min.js" />
