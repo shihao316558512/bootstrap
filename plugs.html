@@ -157,7 +157,7 @@
                 <!--时间范围选择插件end-->
                 <!--通知插件1start-->
                 <div class="row" id="plug-msg1">
-                    <div class="page-header text-center" id="tool-datarangpicker">
+                    <div class="page-header text-center">
                         <h2>通知插件1</h2>
                     </div>
                     <div class="col-sm-6">
@@ -182,7 +182,7 @@
                         <div class="form-group">
                             <label for="inputEmail3" class="col-sm-2 control-label">特殊说明</label>
                             <div class="col-sm-10">
-                                <p class="form-control-static">该插件有很多的使用效果，详见官网示例（如果打不开，记得翻墙）</p>
+                                <p class="form-control-static">该插件有很多的使用效果，详见官网示例</p>
                             </div>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                 <!--通知插件1end-->
                 <!--通知插件2start-->
                 <div class="row" id="plug-msg2">
-                    <div class="page-header text-center" id="tool-datarangpicker">
+                    <div class="page-header text-center">
                         <h2>通知插件2</h2>
                     </div>
                     <div class="col-sm-6">
@@ -239,7 +239,7 @@
                         <div class="form-group">
                             <label for="inputEmail3" class="col-sm-2 control-label">特殊说明</label>
                             <div class="col-sm-10">
-                                <p class="form-control-static">该插件有很多的使用效果，详见官网示例（如果打不开，记得翻墙）</p>
+                                <p class="form-control-static">该插件有很多的使用效果，详见官网示例</p>
                             </div>
                         </div>
                     </div>
@@ -263,6 +263,60 @@
                     </div>
                 </div>
                 <!--通知插件2end-->
+                <!--选色插件start-->
+                <div class="row" id="plug-colorpicker">
+                    <div class="page-header text-center">
+                        <h2>bootstrap选色插件</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    Bootstrap Colorpicker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="https://mjolnic.com/bootstrap-colorpicker/" class="btn btn-info" target="_blank">https://mjolnic.com/bootstrap-colorpicker/</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">特殊说明</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">该插件有很多的使用效果，详见官网示例</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/bootstrap.colorpicker/css/bootstrap-colorpicker.min.css" rel="stylesheet" />
+                    <script src="js/bootstrap.colorpicker/bootstrap-colorpicker.min.js"></script>
+                    <script>
+                        $(function () {
+                            $('#cp2').colorpicker({
+                                format: "hex"
+                            });
+                        });
+                    </script>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
+                            <div class="col-sm-10">
+                                <div id="cp2" class="input-group colorpicker-component">
+                                    <input type="text" value="#00AABB" class="form-control" />
+                                    <span class="input-group-addon"><i></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--选择插件end-->
             </div>
             <!--我是主要内容 end-->
         </div>
