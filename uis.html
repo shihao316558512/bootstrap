@@ -205,14 +205,21 @@
                     <script src="js/wow/wow.min.js"></script>
                     <script>
                         $(function () {
-                            new WOW().init();
+                            $("#btnWowTest").click(function () {
+                                new WOW().init();
+                            })
                         })
                     </script>
                     <div class="col-sm-6">
                         <div class="form-group">
                             <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
                             <div class="col-sm-10">
-                                <div class="wow rollIn" data-wow-offset="10" data-wow-iteration="10" ata-wow-delay="0.5s" style="background-color:deeppink; width:100px; height:100px;color:#fff;">
+                                <div class="col-sm-6">
+                                    <div class="wow rollIn" data-wow-offset="10" data-wow-iteration="10" ata-wow-delay="0.5s" style="background-color:deeppink; width:100px; height:100px;color:#fff;">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a class="btn btn-primary" id="btnWowTest"><i class="fa fa-hand-o-left"></i>&nbsp;点我</a>
                                 </div>
                             </div>
                         </div>
@@ -248,8 +255,15 @@
                         <div class="form-group">
                             <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
                             <div class="col-sm-10">
-                                <a href="#" class="hvr-sweep-to-right" style="width:100px; height:50px; text-decoration:none; color:dimgray; border:1px solid #808080;"></a>
-                                <a href="#" class="hvr-icon-down" style="width:100px; height:50px; text-decoration:none; color:dimgray; border:1px solid #808080;">Icon Down</a>
+                                <div class="col-sm-6">
+                                    <a href="#" class="hvr-sweep-to-right" style="width:100px; height:50px; text-decoration:none; color:dimgray; border:1px solid #808080;"></a>
+                                    <a href="#" class="hvr-icon-down" style="width:100px; height:50px; text-decoration:none; color:dimgray; border:1px solid #808080;">Icon Down</a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="form-control-static">
+                                        <label class="label label-info"><i class="fa fa-hand-o-left"></i>&nbsp;鼠标放上去</label>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -297,7 +311,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
-                                    <a class="btn btn-primary" id="btnAnimoTest">点我，然后看左侧</a>
+                                    <a class="btn btn-primary" id="btnAnimoTest"><i class="fa fa-hand-o-left"></i>&nbsp;点我</a>
                                 </div>
                             </div>
                         </div>
