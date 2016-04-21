@@ -122,7 +122,6 @@
     <Content Include="uis.html" />
     <Content Include="video\ocean.jpg" />
     <Content Include="video\ocean.mp4" />
-    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -130,12 +129,6 @@
   <ItemGroup>
     <Content Include="video\ocean.ogv" />
     <Content Include="video\ocean.webm" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
