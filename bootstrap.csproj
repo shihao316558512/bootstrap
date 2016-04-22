@@ -78,6 +78,7 @@
     <Content Include="css\jquery.toastr\toastr.min.css" />
     <Content Include="css\wow\animate.css" />
     <Content Include="image\forkme.png" />
+    <Content Include="js\bootstrap.DateRangePicker\moment-with-locales.min.js" />
     <Content Include="js\jquery.animo\animo.min.js" />
     <Content Include="js\bootstrap.colorpicker\bootstrap-colorpicker.min.js" />
     <Content Include="js\bootstrap.datepicker\js\bootstrap-datepicker.min.js" />
@@ -148,7 +149,6 @@
     <Content Include="js\bootstrap.datepicker\locales\bootstrap-datepicker.zh-CN.min.js" />
     <Content Include="js\bootstrap.datepicker\locales\bootstrap-datepicker.zh-TW.min.js" />
     <Content Include="js\bootstrap.DateRangePicker\daterangepicker.js" />
-    <Content Include="js\bootstrap.DateRangePicker\moment.min.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\bootstrap.sweetalert\sweet-alert.min.js" />
     <Content Include="js\bootstrap.switch\bootstrap-switch.min.js" />
