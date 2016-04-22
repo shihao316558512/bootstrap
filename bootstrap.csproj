@@ -58,7 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\animo\animate-animo.min.css" />
+    <Content Include="css\jquery.animo\animate-animo.min.css" />
     <Content Include="css\bootstrap.colorpicker\css\bootstrap-colorpicker.min.css" />
     <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\alpha-horizontal.png" />
     <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\alpha.png" />
@@ -73,12 +73,12 @@
     <Content Include="css\bootstrap.switch\bootstrap-switch.min.css" />
     <Content Include="css\default.css" />
     <Content Include="css\hover\hover-min.css" />
-    <Content Include="css\metisMenu\demo.css" />
-    <Content Include="css\metisMenu\metisMenu.min.css" />
-    <Content Include="css\toastr\toastr.min.css" />
+    <Content Include="css\bootstrap.metisMenu\demo.css" />
+    <Content Include="css\bootstrap.metisMenu\metisMenu.min.css" />
+    <Content Include="css\jquery.toastr\toastr.min.css" />
     <Content Include="css\wow\animate.css" />
     <Content Include="image\forkme.png" />
-    <Content Include="js\animo\animo.min.js" />
+    <Content Include="js\jquery.animo\animo.min.js" />
     <Content Include="js\bootstrap.colorpicker\bootstrap-colorpicker.min.js" />
     <Content Include="js\bootstrap.datepicker\js\bootstrap-datepicker.min.js" />
     <Content Include="js\bootstrap.datepicker\locales\bootstrap-datepicker.ar.min.js" />
@@ -156,11 +156,11 @@
     <Content Include="js\html5shiv.min.js" />
     <Content Include="js\jquery-1.9.1.min.js" />
     <Content Include="js\jquery.extend.js" />
-    <Content Include="js\vide\jquery.vide.js" />
-    <Content Include="js\metisMenu\metisMenu.min.js" />
+    <Content Include="js\jquery.vide\jquery.vide.js" />
+    <Content Include="js\bootstrap.metisMenu\metisMenu.min.js" />
     <Content Include="js\respond.min.js" />
     <Content Include="js\scrolltopcontrol.js" />
-    <Content Include="js\toastr\toastr.min.js" />
+    <Content Include="js\jquery.toastr\toastr.min.js" />
     <Content Include="js\wow\wow.min.js" />
     <Content Include="plugs.html" />
     <Content Include="sample\ui\menu1.html" />
