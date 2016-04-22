@@ -207,7 +207,8 @@
                     </div>
                     <div class="clearfix"></div>
                     <link href="css/bootstrap.DateRangePicker/daterangepicker.css" rel="stylesheet" />
-                    <script src="js/bootstrap.DateRangePicker/moment.min.js"></script>
+                    <!--引用多语言版本-->
+                    <script src="js/bootstrap.DateRangePicker/moment-with-locales.min.js"></script>
                     <script src="js/bootstrap.DateRangePicker/daterangepicker.js"></script>
                     <script type="text/javascript">
                         $(function () {
@@ -223,6 +224,8 @@
                                 $("#lbStartTime").html(start.format('YYYY/MM/DD hh:mm:ss'));
                                 $("#lbEndTime").html(end.format('YYYY/MM/DD hh:mm:ss'));
                             });
+                            //对中文的支持
+                            $('#tbTime').data('daterangepicker').updateMomentLocale('zh-cn');
                         });
                     </script>
                     <div class="col-sm-6">
