@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\animo\animate-animo.min.css" />
+    <Content Include="css\bootstrap.switch\bootstrap-switch.min.css" />
     <Content Include="css\hover\hover-min.css" />
     <Content Include="css\wow\animate.css" />
     <Content Include="css\bootstrap.colorpicker\css\bootstrap-colorpicker.min.css" />
@@ -80,6 +81,7 @@
     <Content Include="js\bootstrap.DateRangePicker\daterangepicker.js" />
     <Content Include="js\bootstrap.DateRangePicker\moment.min.js" />
     <Content Include="js\bootstrap.sweetalert\sweet-alert.min.js" />
+    <Content Include="js\bootstrap.switch\bootstrap-switch.min.js" />
     <Content Include="js\metisMenu\metisMenu.min.js" />
     <Content Include="js\toastr\toastr.min.js" />
     <Content Include="js\vide\jquery.vide.js" />
