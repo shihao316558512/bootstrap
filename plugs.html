@@ -83,6 +83,97 @@
             </ul>
             <!--我是主要内容 start-->
             <div class="col-sm-12">
+                <!--时间范围选择插件data-picker start-->
+                <div class="row" id="plug-datepicker">
+                    <div class="page-header text-center">
+                        <h2>bootstrap日期选择插件</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    bootstrap-datepicker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="http://eternicode.github.io/bootstrap-datepicker/" class="btn btn-info" target="_blank">http://eternicode.github.io/bootstrap-datepicker/</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-1 control-label">特殊说明</label>
+                            <div class="col-sm-11">
+                                <p class="form-control-static">
+                                    该插件的样式依赖bootstrap库<br />
+                                    如果弹框的位置有偏差，则可以做略微的调整就行。例如：父级margin-top:50px;，则设置.datepicker { margin-top: 50px; }
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/bootstrap.datepicker/bootstrap-datepicker3.min.css" rel="stylesheet" />
+                    <script src="js/bootstrap.datepicker/js/bootstrap-datepicker.min.js"></script>
+                    <script src="js/bootstrap.datepicker/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+                    <script src="js/bootstrap.datepicker/locales/bootstrap-datepicker.ja.min.js"></script>
+                    <style>
+                        /*注意：如果位置有偏差，则做相应的调整*/
+                        .datepicker { margin-top: 50px; }
+                    </style>
+                    <script type="text/javascript">
+                        $(function () {
+                            $('.sandbox-container:eq(0) input').datepicker({
+                                format: "yyyy/mm/dd",
+                                language: "zh-CN"
+                            });
+                            $('.sandbox-container:eq(1) .input-group.date').datepicker({
+                                format: "yyyy/mm/dd",
+                                language: "ja"
+                            });
+                            $('.sandbox-container:eq(2) .input-daterange').datepicker({
+                                format: "yyyy/mm/dd"
+                            });
+                        })
+                    </script>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-1 control-label">中文效果</label>
+                            <div class="col-sm-11 sandbox-container">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-1 control-label">日文效果</label>
+                            <div class="col-sm-11 sandbox-container">
+                                <div class="input-group date">
+                                    <input type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-1 control-label">范围效果</label>
+                            <div class="col-sm-11 sandbox-container">
+                                <div class="input-daterange input-group">
+                                    <input type="text" class="form-control" name="start" />
+                                    <span class="input-group-addon">to</span>
+                                    <input type="text" class="form-control" name="end" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--时间范围选择插件data-picker end-->
                 <!--时间范围选择插件DateRangePicker start-->
                 <div class="row" id="plug-DateRangePicker">
                     <div class="page-header text-center">
@@ -122,15 +213,15 @@
                         $(function () {
                             $('#tbTime').daterangepicker({
                                 timePicker: true,
-                                timePickerIncrement: 30,
+                                timePickerIncrement: 1,
                                 locale: {
-                                    format: 'YYYY/MM/DD'
+                                    format: 'YYYY/MM/DD hh:mm:ss'
                                 },
                                 startDate: $("#lbStartTime").html(),
                                 endDate: $("#lbEndTime").html()
                             }, function (start, end, label) {
-                                $("#lbStartTime").html(start.format('YYYY/MM/DD'));
-                                $("#lbEndTime").html(end.format('YYYY/MM/DD'));
+                                $("#lbStartTime").html(start.format('YYYY/MM/DD hh:mm:ss'));
+                                $("#lbEndTime").html(end.format('YYYY/MM/DD hh:mm:ss'));
                             });
                         });
                     </script>
