@@ -59,7 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\animo\animate-animo.min.css" />
-    <Content Include="css\bootstrap.datepicker\bootstrap-datepicker3.css" />
     <Content Include="css\bootstrap.datepicker\bootstrap-datepicker3.min.css" />
     <Content Include="css\bootstrap.switch\bootstrap-switch.min.css" />
     <Content Include="css\hover\hover-min.css" />
@@ -80,7 +79,6 @@
     <Content Include="image\forkme.png" />
     <Content Include="js\animo\animo.min.js" />
     <Content Include="js\bootstrap.colorpicker\bootstrap-colorpicker.min.js" />
-    <Content Include="js\bootstrap.datepicker\js\bootstrap-datepicker.js" />
     <Content Include="js\bootstrap.datepicker\js\bootstrap-datepicker.min.js" />
     <Content Include="js\bootstrap.datepicker\locales\bootstrap-datepicker.ar.min.js" />
     <Content Include="js\bootstrap.datepicker\locales\bootstrap-datepicker.az.min.js" />
