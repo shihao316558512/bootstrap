@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\bootstrap.datepicker\bootstrap-datepicker3.min.css" />
+    <Content Include="css\bootstrap.datetimepicker\bootstrap-datetimepicker.min.css" />
     <Content Include="css\bootstrap.metisMenu\demo.css" />
     <Content Include="css\bootstrap.metisMenu\metisMenu.min.css" />
     <Content Include="css\bootstrap.switch\bootstrap-switch.min.css" />
@@ -148,6 +149,7 @@
     <Content Include="js\bootstrap.datepicker\locales\bootstrap-datepicker.zh-TW.min.js" />
     <Content Include="js\bootstrap.DateRangePicker\daterangepicker.js" />
     <Content Include="js\bootstrap.DateRangePicker\moment-with-locales.min.js" />
+    <Content Include="js\bootstrap.datetimepicker\bootstrap-datetimepicker.min.js" />
     <Content Include="js\bootstrap.metisMenu\metisMenu.min.js" />
     <Content Include="js\bootstrap.sweetalert\sweet-alert.min.js" />
     <Content Include="js\bootstrap.switch\bootstrap-switch.min.js" />
