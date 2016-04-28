@@ -59,6 +59,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\bootstrap.datetimepicker\bootstrap-datetimepicker.min.css" />
+    <Content Include="css\bootstrap.formhelper\css\bootstrap-formhelpers.min.css" />
+    <Content Include="css\bootstrap.formhelper\img\bootstrap-formhelpers-countries.flags-LICENSE.txt" />
+    <Content Include="css\bootstrap.formhelper\img\bootstrap-formhelpers-countries.flags.png" />
+    <Content Include="css\bootstrap.formhelper\img\bootstrap-formhelpers-currencies.flags.png" />
+    <Content Include="css\bootstrap.formhelper\img\bootstrap-formhelpers-googlefonts.png" />
     <Content Include="css\jquery.animo\animate-animo.min.css" />
     <Content Include="css\bootstrap.colorpicker\css\bootstrap-colorpicker.min.css" />
     <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\alpha-horizontal.png" />
@@ -83,6 +88,7 @@
     <Content Include="js\bootstrap.DateRangePicker\moment-with-locales.min.js" />
     <Content Include="js\bootstrap.datetimepicker\bootstrap-datetimepicker.min.js" />
     <Content Include="js\bootstrap.datetimepicker\moment-with-locales.min.js" />
+    <Content Include="js\bootstrap.formhelper\bootstrap-formhelpers.min.js" />
     <Content Include="js\jquery.animo\animo.min.js" />
     <Content Include="js\bootstrap.colorpicker\bootstrap-colorpicker.min.js" />
     <Content Include="js\bootstrap.datepicker\js\bootstrap-datepicker.min.js" />
