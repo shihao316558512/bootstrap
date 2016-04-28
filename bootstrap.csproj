@@ -150,6 +150,7 @@
     <Content Include="js\bootstrap.DateRangePicker\daterangepicker.js" />
     <Content Include="js\bootstrap.DateRangePicker\moment-with-locales.min.js" />
     <Content Include="js\bootstrap.datetimepicker\bootstrap-datetimepicker.min.js" />
+    <Content Include="js\bootstrap.datetimepicker\moment-with-locales.min.js" />
     <Content Include="js\bootstrap.metisMenu\metisMenu.min.js" />
     <Content Include="js\bootstrap.sweetalert\sweet-alert.min.js" />
     <Content Include="js\bootstrap.switch\bootstrap-switch.min.js" />
