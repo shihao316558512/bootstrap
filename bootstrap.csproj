@@ -60,6 +60,11 @@
   <ItemGroup>
     <Content Include="css\bootstrap.datepicker\bootstrap-datepicker3.min.css" />
     <Content Include="css\bootstrap.datetimepicker\bootstrap-datetimepicker.min.css" />
+    <Content Include="css\bootstrap.formhelper\css\bootstrap-formhelpers.min.css" />
+    <Content Include="css\bootstrap.formhelper\img\bootstrap-formhelpers-countries.flags-LICENSE.txt" />
+    <Content Include="css\bootstrap.formhelper\img\bootstrap-formhelpers-countries.flags.png" />
+    <Content Include="css\bootstrap.formhelper\img\bootstrap-formhelpers-currencies.flags.png" />
+    <Content Include="css\bootstrap.formhelper\img\bootstrap-formhelpers-googlefonts.png" />
     <Content Include="css\bootstrap.metisMenu\demo.css" />
     <Content Include="css\bootstrap.metisMenu\metisMenu.min.css" />
     <Content Include="css\bootstrap.switch\bootstrap-switch.min.css" />
@@ -151,6 +156,7 @@
     <Content Include="js\bootstrap.DateRangePicker\moment-with-locales.min.js" />
     <Content Include="js\bootstrap.datetimepicker\bootstrap-datetimepicker.min.js" />
     <Content Include="js\bootstrap.datetimepicker\moment-with-locales.min.js" />
+    <Content Include="js\bootstrap.formhelper\bootstrap-formhelpers.min.js" />
     <Content Include="js\bootstrap.metisMenu\metisMenu.min.js" />
     <Content Include="js\bootstrap.sweetalert\sweet-alert.min.js" />
     <Content Include="js\bootstrap.switch\bootstrap-switch.min.js" />
