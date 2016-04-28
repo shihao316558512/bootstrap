@@ -16,12 +16,16 @@
 */
 var pageInitModule = (function (mod) {
     mod.setCarousel = function () {
-        $('.carousel').hammer().on('swipeleft', function () {
-            $(this).carousel('next');
-        });
-        $('.carousel').hammer().on('swiperight', function () {
-            $(this).carousel('prev');
-        });
+        try {
+            $('.carousel').hammer().on('swipeleft', function () {
+                $(this).carousel('next');
+            });
+            $('.carousel').hammer().on('swiperight', function () {
+                $(this).carousel('prev');
+            });
+        } catch (e) {
+            console.log("you mush import hammer.js and jquery.hammer.js to let the carousel can be touched on mobile");
+        }
     };
     mod.setWidth = function () {
         if ($(window).width() < 768) {
