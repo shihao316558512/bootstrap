@@ -77,6 +77,7 @@
     <Content Include="css\bootstrap.metisMenu\metisMenu.min.css" />
     <Content Include="css\jquery.toastr\toastr.min.css" />
     <Content Include="css\wow\animate.css" />
+    <Content Include="favicon.ico" />
     <Content Include="image\forkme.png" />
     <Content Include="js\bootstrap.DateRangePicker\moment-with-locales.min.js" />
     <Content Include="js\jquery.animo\animo.min.js" />
