@@ -163,6 +163,8 @@
     <Content Include="js\jquery.toastr\toastr.min.js" />
     <Content Include="js\wow\wow.min.js" />
     <Content Include="plugs.html" />
+    <Content Include="sample\carousel.html" />
+    <Content Include="sample\scrolltop.html" />
     <Content Include="sample\ui\menu1.html" />
     <Content Include="sample\ui\videobg1.html" />
     <Content Include="sample\ui\videobg2.html" />
@@ -200,7 +202,9 @@
     <Content Include="video\ocean.ogv" />
     <Content Include="video\ocean.webm" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="js\jquery.hammer\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -16,6 +16,9 @@
     <![endif]-->
     <!--font-awesome字体库-->
     <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!--jquery.hammer手势插件-->
+    <script src="js/jquery.hammer/hammer.min.js"></script>
+    <script src="js/jquery.hammer/jquery.hammer.js"></script>
     <!--平滑滚动到顶部库-->
     <script src="js/scrolltopcontrol.js" type="text/javascript"></script>
     <!--主要写的jquery拓展方法-->
@@ -105,7 +108,16 @@
                     </li>
                     <li class="list-group-item">
                         <span class="badge">插件库</span>
-                        scrolltopcontrol.js平滑滚动插件
+                        <p>scrolltopcontrol.js（<a href="sample/scrolltop.html" target="_blank">让页面返回顶部时平滑滚动</a>）</p>
+                        <p>使用说明：页面需要引用该js</p>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge">插件库&nbsp;2016.4.28</span>
+                        <p>jquery.hammer（<a href="sample/carousel.html" target="_blank">让bootstrap的carousel插件支持手势</a>）</p>
+                        <p>
+                            使用说明：页面需要引用hammer.min.js、jquery.hammer.js、default.js
+                        </p>
+                        <p>注意：已将carousel的手势绑定事件加到了default.js中，页面不用再给carousel写手势绑定事件了</p>
                     </li>
                 </ul>
                 <ul class="list-group">
