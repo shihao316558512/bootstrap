@@ -83,7 +83,7 @@
             </ul>
             <!--我是主要内容 start-->
             <div class="col-sm-12">
-                <!--时间范围选择插件data-picker start-->
+                <!--日期选择插件data-picker start-->
                 <div class="row" id="plug-datepicker">
                     <div class="page-header text-center">
                         <h2>bootstrap日期选择插件</h2>
@@ -173,18 +173,18 @@
                         </div>
                     </div>
                 </div>
-                <!--时间范围选择插件data-picker end-->
-                <!--时间范围选择插件DateRangePicker start-->
+                <!--日期选择插件data-picker end-->
+                <!--日期及时间范围选择插件DateRangePicker start-->
                 <div class="row" id="plug-DateRangePicker">
                     <div class="page-header text-center">
-                        <h2>bootstrap时间范围选择插件</h2>
+                        <h2>bootstrap日期及时间范围选择插件</h2>
                     </div>
                     <div class="col-sm-6">
                         <div class="form-group">
                             <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
                             <div class="col-sm-10">
                                 <p class="form-control-static">
-                                   Bootstrap Date Range Picker
+                                    Bootstrap Date Range Picker
                                 </p>
                             </div>
                         </div>
@@ -248,7 +248,88 @@
                         </div>
                     </div>
                 </div>
-                <!--时间范围选择插件DateRangePicker end-->
+                <!--日期及时间范围范围选择插件DateRangePicker end-->
+                <!--日期时间选择插件datetimepicker start-->
+                <div class="row" id="plug-datetimepicker">
+                    <div class="page-header text-center">
+                        <h2>bootstrap日期时间选择插件</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    Bootstrap 3 Datepicker
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="http://eonasdan.github.io/bootstrap-datetimepicker/" class="btn btn-info" target="_blank">http://eonasdan.github.io/bootstrap-datetimepicker/</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-1 control-label">特殊说明</label>
+                            <div class="col-sm-11">
+                                <p class="form-control-static">
+                                    该插件依赖bootstrap库<br />
+                                    部分涉及时间格式的功能依赖moment.js<br />
+                                    多说一句：moment-with-locales.min.js支持中文了，详细信息参考官网
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/bootstrap.datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+                    <script src="js/bootstrap.datetimepicker/bootstrap-datetimepicker.min.js"></script>
+                    <style>
+                        /*这里为了解决上面插件定义的样式污染的问题*/
+                        #plug-datetimepicker .datepicker { margin-top: auto; }
+                    </style>
+                    <script type="text/javascript">
+                        $(function () {
+                            $('#datetimepicker1').datetimepicker();
+                            //这里的函数用到了moment.js，因为前面插件已经引用进去了，所以不再引用。
+                            //否则是需要引用moment.js的。
+                            $('#datetimepicker3').datetimepicker({
+                                format: 'LT'
+                            });
+                        });
+                    </script>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-1 control-label">使用效果</label>
+                            <div class="col-sm-10">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <div class='input-group date' id='datetimepicker1'>
+                                            <input type='text' class="form-control" />
+                                            <span class="input-group-addon">
+                                                <span class="glyphicon glyphicon-calendar"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <div class='input-group date' id='datetimepicker3'>
+                                            <input type='text' class="form-control" />
+                                            <span class="input-group-addon">
+                                                <span class="glyphicon glyphicon-time"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--日期时间选择插件datetimepicker end-->
                 <!--通知插件toastr start-->
                 <div class="row" id="plug-toastr">
                     <div class="page-header text-center">
