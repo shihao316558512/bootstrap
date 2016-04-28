@@ -151,10 +151,14 @@
     <Content Include="js\bootstrap.sweetalert\sweet-alert.min.js" />
     <Content Include="js\bootstrap.switch\bootstrap-switch.min.js" />
     <Content Include="js\jquery.animo\animo.min.js" />
+    <Content Include="js\jquery.hammer\hammer.min.js" />
+    <Content Include="js\jquery.hammer\jquery.hammer.js" />
     <Content Include="js\jquery.toastr\toastr.min.js" />
     <Content Include="js\jquery.vide\jquery.vide.js" />
     <Content Include="js\wow\wow.min.js" />
     <Content Include="plugs.html" />
+    <Content Include="sample\carousel.html" />
+    <Content Include="sample\scrolltop.html" />
     <Content Include="sample\ui\menu1.html" />
     <Content Include="sample\ui\videobg1.html" />
     <Content Include="sample\ui\videobg2.html" />

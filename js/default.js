@@ -8,12 +8,21 @@
     $(window).scroll(function () {
         pageInitModule.setScrollToTop();
     });
+    pageInitModule.setCarousel();
 })
 
 /*
 * init page when page load
 */
 var pageInitModule = (function (mod) {
+    mod.setCarousel = function () {
+        $('.carousel').hammer().on('swipeleft', function () {
+            $(this).carousel('next');
+        });
+        $('.carousel').hammer().on('swiperight', function () {
+            $(this).carousel('prev');
+        });
+    };
     mod.setWidth = function () {
         if ($(window).width() < 768) {
             $(".sidebar").css({ left: -220 });
