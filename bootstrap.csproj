@@ -76,6 +76,7 @@
     <Content Include="css\bootstrap.DateRangePicker\daterangepicker.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\bootstrap.sweetalert\sweet-alert.css" />
+    <Content Include="favicon.ico" />
     <Content Include="image\forkme.png" />
     <Content Include="js\bootstrap.colorpicker\bootstrap-colorpicker.min.js" />
     <Content Include="js\bootstrap.datepicker\js\bootstrap-datepicker.min.js" />
