@@ -1,4 +1,4 @@
 # bootstrap
 基于bootstrap搭建的页面结构
-##博客地址 
-<a href='http://shihao316558512.github.io/bootstrap' target='_blank'>http://shihao316558512.github.io/bootstrap</a>
+##预览地址 
+[http://shihao316558512.github.io/boostrap](http://shihao316558512.github.io/boostrap)
