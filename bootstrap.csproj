@@ -84,6 +84,7 @@
     <Content Include="css\bootstrap.sweetalert\sweet-alert.css" />
     <Content Include="favicon.ico" />
     <Content Include="image\forkme.png" />
+    <Content Include="image\picture-loading.gif" />
     <Content Include="js\bootstrap.colorpicker\bootstrap-colorpicker.min.js" />
     <Content Include="js\bootstrap.datepicker\js\bootstrap-datepicker.min.js" />
     <Content Include="js\bootstrap.datepicker\locales\bootstrap-datepicker.ar.min.js" />
@@ -163,12 +164,18 @@
     <Content Include="js\jquery.animo\animo.min.js" />
     <Content Include="js\jquery.hammer\hammer.min.js" />
     <Content Include="js\jquery.hammer\jquery.hammer.js" />
+    <Content Include="js\jquery.lazyload\jquery.lazyload.min.js" />
     <Content Include="js\jquery.toastr\toastr.min.js" />
     <Content Include="js\jquery.vide\jquery.vide.js" />
+    <Content Include="js\masonry\imagesloaded.pkgd.min.js" />
+    <Content Include="js\masonry\masonry.pkgd.min.js" />
     <Content Include="js\wow\wow.min.js" />
     <Content Include="plugs.html" />
     <Content Include="sample\carousel.html" />
     <Content Include="sample\scrolltop.html" />
+    <Content Include="sample\ui\masonrylazyappend.html" />
+    <Content Include="sample\ui\masonryimg.html" />
+    <Content Include="sample\ui\masonry.html" />
     <Content Include="sample\ui\menu1.html" />
     <Content Include="sample\ui\videobg1.html" />
     <Content Include="sample\ui\videobg2.html" />
@@ -214,7 +221,15 @@
     <Content Include="video\ocean.ogv" />
     <Content Include="video\ocean.webm" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
