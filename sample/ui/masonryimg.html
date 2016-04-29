@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="../../favicon.ico" />
+    <!--jquery库-->
+    <script src="../../js/jquery-1.9.1.min.js"></script>
+    <!--bootstrap库-->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../../js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+      <script src="../../js/respond.min.js"></script>
+    <![endif]-->
+    <!--font-awesome字体库-->
+    <link href="../../css/font-awesome.min.css" rel="stylesheet" />
+    <!--流式布局库-->
+    <script src="../../js/jquery.masonry/masonry.pkgd.min.js"></script>
+    <script src="../../js/jquery.masonry/imagesloaded.pkgd.min.js"></script>
+    <style>
+        .template { border: 1px solid #b6ff00; }
+    </style>
+    <script>
+        $(function () {
+            var base = $(".template");
+            var base1 = base.clone();
+            base1.html(base1.html().replace("300x150", "300x300"));
+            for (var i = 0; i < 30; i++) {
+                var temp;
+                if (i % 2 == 0) {
+                    temp = base.clone();
+                } else {
+                    temp = base1.clone();
+                }
+                temp.html(temp.html().replace("text=1", "text=" + (2 + i)));
+                $(".content").append(temp);
+            }
+            // init Masonry
+            var $grid = $('.content').masonry({
+                columnWidth: '.template',
+                itemSelector: '.template'
+            });
+            //图片加载完再执行布局计算
+            $grid.imagesLoaded().progress(function () {
+                $grid.masonry('layout');
+            });
+        })
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row content">
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 template">
+                <div class="row">
+                    <img src="http://placehold.it/300x150?text=1" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
