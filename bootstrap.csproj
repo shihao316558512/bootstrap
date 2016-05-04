@@ -68,6 +68,7 @@
     <Content Include="css\bootstrap.metisMenu\demo.css" />
     <Content Include="css\bootstrap.metisMenu\metisMenu.min.css" />
     <Content Include="css\bootstrap.switch\bootstrap-switch.min.css" />
+    <Content Include="css\bootstrap.tabdrop\tabdrop.css" />
     <Content Include="css\hover\hover-min.css" />
     <Content Include="css\jquery.animo\animate-animo.min.css" />
     <Content Include="css\jquery.toastr\toastr.min.css" />
@@ -161,6 +162,7 @@
     <Content Include="js\bootstrap.metisMenu\metisMenu.min.js" />
     <Content Include="js\bootstrap.sweetalert\sweet-alert.min.js" />
     <Content Include="js\bootstrap.switch\bootstrap-switch.min.js" />
+    <Content Include="js\bootstrap.tabdrop\bootstrap-tabdrop.js" />
     <Content Include="js\jquery.animo\animo.min.js" />
     <Content Include="js\jquery.hammer\hammer.min.js" />
     <Content Include="js\jquery.hammer\jquery.hammer.js" />
@@ -221,6 +223,7 @@
     <Content Include="video\ocean.ogv" />
     <Content Include="video\ocean.webm" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

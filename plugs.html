@@ -557,7 +557,7 @@
                 </div>
                 <!--开关插件switch end-->
                 <!--formhelper start-->
-                <div class="row" id="plug-formhelper" style="padding-bottom: 50px; ">
+                <div class="row" id="plug-formhelper">
                     <div class="page-header text-center">
                         <h2>Bootstrap Form Helper 插件集合</h2>
                     </div>
@@ -611,6 +611,109 @@
                     </div>
                 </div>
                 <!--formhelper end-->
+                <!--tab drop start-->
+                <div id="plug-tabdrop" class="row" style="padding-bottom: 150px; ">
+                    <div class="page-header text-center">
+                        <h2>bootstrap-tab超出自动折叠插件</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    Tab drop for Bootstrap <small>bootstrap-tabdrop.js</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="http://www.eyecon.ro/bootstrap-tabdrop/" class="btn btn-info" target="_blank">http://www.eyecon.ro/bootstrap-tabdrop/</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-1 control-label">特殊说明</label>
+                            <div class="col-sm-11">
+                                <p class="form-control-static">该插件依赖bootstrap库</p>
+                            </div>
+                        </div>
+                    </div>
+                    <link href="css/bootstrap.tabdrop/tabdrop.css" rel="stylesheet" />
+                    <script src="js/bootstrap.tabdrop/bootstrap-tabdrop.js"></script>
+                    <script>
+                        $(function () {
+                            $('.nav-tabs').eq(0).tabdrop();
+                            $('.nav-tabs').eq(1).tabdrop({ text: '<i class="fa fa-align-justify"></i>' });
+                        })
+                    </script>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <!-- Nav tabs -->
+                                        <ul class="nav nav-tabs" role="tablist">
+                                            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                                            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                                            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                                            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                                            <li role="presentation"><a href="#settings1" aria-controls="settings1" role="tab" data-toggle="tab">Settings1</a></li>
+                                            <li role="presentation"><a href="#settings2" aria-controls="settings2" role="tab" data-toggle="tab">Settings2</a></li>
+                                            <li role="presentation"><a href="#settings3" aria-controls="settings3" role="tab" data-toggle="tab">Settings3</a></li>
+                                            <li role="presentation"><a href="#settings4" aria-controls="settings4" role="tab" data-toggle="tab">Settings4</a></li>
+                                            <li role="presentation"><a href="#settings5" aria-controls="settings5" role="tab" data-toggle="tab">Settings5</a></li>
+                                        </ul>
+                                        <!-- Tab panes -->
+                                        <div class="tab-content">
+                                            <div role="tabpanel" class="tab-pane active" id="home">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="profile">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="messages">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="settings">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="settings1">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="settings2">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="settings3">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="settings4">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="settings5">...</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <!-- Nav tabs -->
+                                        <ul class="nav nav-tabs" role="tablist">
+                                            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                                            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                                            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                                            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                                            <li role="presentation"><a href="#settings1" aria-controls="settings1" role="tab" data-toggle="tab">Settings1</a></li>
+                                            <li role="presentation"><a href="#settings2" aria-controls="settings2" role="tab" data-toggle="tab">Settings2</a></li>
+                                            <li role="presentation"><a href="#settings3" aria-controls="settings3" role="tab" data-toggle="tab">Settings3</a></li>
+                                            <li role="presentation"><a href="#settings4" aria-controls="settings4" role="tab" data-toggle="tab">Settings4</a></li>
+                                            <li role="presentation"><a href="#settings5" aria-controls="settings5" role="tab" data-toggle="tab">Settings5</a></li>
+                                        </ul>
+                                        <!-- Tab panes -->
+                                        <div class="tab-content">
+                                            <div role="tabpanel" class="tab-pane active" id="home">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="profile">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="messages">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="settings">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="settings1">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="settings2">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="settings3">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="settings4">...</div>
+                                            <div role="tabpanel" class="tab-pane" id="settings5">...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--tab drop end-->
             </div>
             <!--我是主要内容 end-->
         </div>
