@@ -162,11 +162,11 @@
     <Content Include="js\bootstrap.datepicker\locales\bootstrap-datepicker.zh-CN.min.js" />
     <Content Include="js\bootstrap.datepicker\locales\bootstrap-datepicker.zh-TW.min.js" />
     <Content Include="js\bootstrap.DateRangePicker\daterangepicker.js" />
-    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\bootstrap\bootstrap.min.js" />
     <Content Include="js\bootstrap.sweetalert\sweet-alert.min.js" />
     <Content Include="js\bootstrap.switch\bootstrap-switch.min.js" />
     <Content Include="js\default.js" />
-    <Content Include="js\html5shiv.min.js" />
+    <Content Include="js\bootstrap\html5shiv.min.js" />
     <Content Include="js\jquery-1.9.1.min.js" />
     <Content Include="js\jquery.extend.js" />
     <Content Include="js\jquery.hammer\hammer.min.js" />
@@ -176,8 +176,8 @@
     <Content Include="js\jquery.masonry\masonry.pkgd.min.js" />
     <Content Include="js\jquery.vide\jquery.vide.js" />
     <Content Include="js\bootstrap.metisMenu\metisMenu.min.js" />
-    <Content Include="js\respond.min.js" />
-    <Content Include="js\scrolltopcontrol.js" />
+    <Content Include="js\bootstrap\respond.min.js" />
+    <Content Include="js\jquery.scrolltopcontrol\scrolltopcontrol.js" />
     <Content Include="js\jquery.toastr\toastr.min.js" />
     <Content Include="js\wow\wow.min.js" />
     <Content Include="plugs.html" />

@@ -1,15 +1,14 @@
 ﻿$(function () {
     pageInitModule.setWidth();
     pageInitModule.setSidebar();
-    pageInitModule.setScrollToTop();
-    $(window).resize(function () {
-        pageInitModule.setWidth();
-    })
-    $(window).scroll(function () {
-        pageInitModule.setScrollToTop();
-    });
     pageInitModule.setCarousel();
 })
+$(window).resize(function () {
+    pageInitModule.setWidth();
+})
+$(window).scroll(function () {
+    pageInitModule.setScrollToTop();
+});
 
 /*
 * init page when page load

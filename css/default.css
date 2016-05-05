@@ -18,12 +18,12 @@ html, body { background: #f9f9f9; -ms-overflow-style: scrollbar; /* Prevent scro
 .maincontent { width: 100%; height: 100%; margin: 0 auto; min-width: 320px !important; overflow: hidden; }
 .maincontent .breadcrumb { padding: 14px 15px; }
 
-#goTop { padding: 5px 15px; position: fixed; right: 20px; bottom: 20px; display: none; background-color: #aaa; color: #fff; text-align: center; display: none; -moz-transition: background 0.5s linear; -webkit-transition: background 0.5s linear; -o-transition: background 0.5s linear; transition: background 0.5s linear; z-index: 99; }
+#goTop { padding: 5px 15px; border-radius: 8px; position: fixed; right: 20px; bottom: 20px; display: none; background-color: #aaa; color: #fff; text-align: center; display: none; -moz-transition: background 0.5s linear; -webkit-transition: background 0.5s linear; -o-transition: background 0.5s linear; transition: background 0.5s linear; z-index: 99; }
 #goTop:hover { background: #808080; }
 
 @media (max-width:768px) {
     .navbar-toggle[class*=pull-left] { margin-left: 15px; margin-right: 0; }
-    #goTop { padding: 0 10px; }
+    #goTop { padding: 0 8px; }
 }
 
 .forkme { position: absolute; top: 50px; right: 0; border: 0; }
