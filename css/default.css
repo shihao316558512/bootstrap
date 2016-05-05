@@ -1,5 +1,4 @@
-﻿
-html, body { background: #f9f9f9; -ms-overflow-style: scrollbar; /* Prevent scroll on narrow devices */ }
+﻿html, body { background: #f9f9f9; -ms-overflow-style: scrollbar; /*ie-scrollbar*/ overflow-x: hidden; /* Prevent scroll on narrow devices */ }
 .all { margin-top: 50px; margin-left: 220px; z-index: 20; padding-left: 0; padding-right: 0; }
 .sidebar { position: fixed; left: 0; top: 50px; width: 220px; padding: 0; background-color: #f1f1f1; -webkit-overflow-scrolling: touch; -webkit-overflow-scrolling: -blackberry-touch; border-right: 1px solid #ccc; overflow-y: auto; overflow-x: hidden; height: 100%; }
 .sidebar ul { list-style-type: none; margin: 0; padding: 0; }
