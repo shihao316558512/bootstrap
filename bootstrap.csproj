@@ -87,6 +87,11 @@
     <Content Include="favicon.ico" />
     <Content Include="image\forkme.png" />
     <Content Include="image\picture-loading.gif" />
+    <Content Include="image\screenshot\pc1.png" />
+    <Content Include="image\screenshot\pc2.png" />
+    <Content Include="image\screenshot\phone1.png" />
+    <Content Include="image\screenshot\phone2.png" />
+    <Content Include="image\screenshot\phone3.png" />
     <Content Include="js\bootstrap.DateRangePicker\moment-with-locales.min.js" />
     <Content Include="js\bootstrap.datetimepicker\bootstrap-datetimepicker.min.js" />
     <Content Include="js\bootstrap.datetimepicker\moment-with-locales.min.js" />
