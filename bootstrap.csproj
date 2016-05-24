@@ -58,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap.sln" />
     <Content Include="css\bootstrap.datetimepicker\bootstrap-datetimepicker.min.css" />
     <Content Include="css\bootstrap.formhelper\css\bootstrap-formhelpers.min.css" />
     <Content Include="css\bootstrap.formhelper\img\bootstrap-formhelpers-countries.flags-LICENSE.txt" />

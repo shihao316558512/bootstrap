@@ -26,3 +26,5 @@
 }
 
 .forkme { position: absolute; top: 50px; right: 0; border: 0; }
+/*fa字体库样式纠正，注意写法，中间是没有间隔的*/
+.fa.pull-right { line-height: inherit; }
