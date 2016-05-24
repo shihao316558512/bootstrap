@@ -87,7 +87,8 @@
     <Content Include="favicon.ico" />
     <Content Include="image\forkme.png" />
     <Content Include="image\picture-loading.gif" />
-    <Content Include="image\screenshot\metisMenu.png" />
+    <Content Include="image\screenshot\metisMenu_error.png" />
+    <Content Include="image\screenshot\metisMenu_right.png" />
     <Content Include="image\screenshot\pc1.png" />
     <Content Include="image\screenshot\pc2.png" />
     <Content Include="image\screenshot\phone1.png" />
