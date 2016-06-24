@@ -178,6 +178,8 @@
     <Content Include="js\wow\wow.min.js" />
     <Content Include="plugs.html" />
     <Content Include="sample\carousel.html" />
+    <Content Include="sample\iframe\child.html" />
+    <Content Include="sample\iframe\parent.html" />
     <Content Include="sample\scrolltop.html" />
     <Content Include="sample\ui\masonrylazyappend.html" />
     <Content Include="sample\ui\masonryimg.html" />
