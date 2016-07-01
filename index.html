@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="favicon.ico" />
     <!--jquery库-->
-    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!--bootstrap库-->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <script src="js/bootstrap/bootstrap.min.js"></script>
@@ -16,6 +16,9 @@
     <![endif]-->
     <!--font-awesome字体库-->
     <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!--页面加载进度条-->
+    <link href="css/pace/dataurl.css" rel="stylesheet" />
+    <script src="js/pace/pace.min.js"></script>
     <!--jquery.hammer手势插件-->
     <script src="js/jquery.hammer/hammer.min.js"></script>
     <script src="js/jquery.hammer/jquery.hammer.js"></script>
@@ -87,37 +90,46 @@
             </ul>
             <div class="col-sm-12">
                 <div class="jumbotron">
-                    <h1>这是一套简单的基于bootstrap的简易框架</h1>
-                    <p>适用于bootstrap的插件正在不间断更新中</p>
+                    <h1>这是一套开源的基于bootstrap的简易框架</h1>
+                    <p>所用插件和库几乎都属于开源（个别特殊的会做说明），且功能正在不间断更新中</p>
                 </div>
                 <ul class="list-group">
                     <li class="list-group-item active">
-                        基础库
+                        核心库（现在页面呈现效果必须依赖的库）
                     </li>
                     <li class="list-group-item">
                         <span class="badge">插件库</span>
-                        jquery-1.9.1.js
+                        jquery-1.12.4.js（<a href="https://jquery.com/" target="_blank">官网</a>）
                     </li>
                     <li class="list-group-item">
                         <span class="badge">UI库</span>
-                        bootstrap3.3.6
+                        bootstrap3.3.6（<a href="https://getbootstrap.com/" target="_blank">官网</a>）
                     </li>
                     <li class="list-group-item">
                         <span class="badge">UI库</span>
-                        font-awesome4.4.0
+                        font-awesome4.6.3（<a href="http://fontawesome.io/" target="_blank">官网</a>）
                     </li>
                     <li class="list-group-item">
                         <span class="badge">插件库</span>
-                        <p>scrolltopcontrol.js（<a href="sample/scrolltop.html" target="_blank">让页面返回顶部时平滑滚动</a>）</p>
-                        <p>使用说明：页面需要引用该js</p>
+                        <p>让页面返回顶部时平滑滚动（<a href="sample/scrolltop.html" target="_blank">样例</a>）</p>
+                        <p>使用说明：页面需要引用scrolltopcontrol.js</p>
                     </li>
                     <li class="list-group-item">
                         <span class="badge">插件库&nbsp;2016.4.28</span>
-                        <p>jquery.hammer（<a href="sample/carousel.html" target="_blank">让bootstrap的carousel插件支持手势</a>）</p>
+                        <p>让bootstrap的carousel插件支持手势（<a href="sample/carousel.html" target="_blank">样例</a>）（<a href="https://github.com/hammerjs/jquery.hammer.js" target="_blank">jquery.hammer官网</a>）（<a href="http://hammerjs.github.io/" target="_blank">hammer.js官网</a>）</p>
                         <p>
-                            使用说明：页面需要引用hammer.min.js、jquery.hammer.js、default.js
+                            使用说明：页面需要引用hammer.min.js、jquery.hammer.js
                         </p>
-                        <p>注意：已将carousel的手势绑定事件加到了default.js中，页面不用再给carousel写手势绑定事件了</p>
+                        <p>注意：已将carousel的手势绑定事件封装到了default.js中，如果页面已经引用了default.js，就不用再给carousel写手势绑定事件了</p>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge">插件库&nbsp;2016.7.1</span>
+                        <p>页面加载进度条（<a href="sample/pace.html" target="_blank">样例</a>）（<a href="http://github.hubspot.com/pace/docs/welcome/" target="_blank">官网</a>）</p>
+                        <p>
+                            使用说明：1.页面需要引用pace.min.js、dataurl.css <br />
+                            2.官网提供多种样式供选择，只需要下载相应的css文件替换掉原来的css文件就行<br />
+                            3.dataurl.css里面可以调整进度条位置
+                        </p>
                     </li>
                 </ul>
                 <ul class="list-group">

@@ -72,6 +72,7 @@
     <Content Include="css\hover\hover-min.css" />
     <Content Include="css\jquery.animo\animate-animo.min.css" />
     <Content Include="css\jquery.toastr\toastr.min.css" />
+    <Content Include="css\pace\dataurl.css" />
     <Content Include="css\wow\animate.css" />
     <Content Include="css\bootstrap.colorpicker\css\bootstrap-colorpicker.min.css" />
     <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\alpha-horizontal.png" />
@@ -170,16 +171,19 @@
     <Content Include="js\jquery.hammer\hammer.min.js" />
     <Content Include="js\jquery.hammer\jquery.hammer.js" />
     <Content Include="js\jquery.lazyload\jquery.lazyload.min.js" />
+    <Content Include="js\jquery.min.js" />
     <Content Include="js\jquery.scrolltopcontrol\scrolltopcontrol.js" />
     <Content Include="js\jquery.toastr\toastr.min.js" />
     <Content Include="js\jquery.vide\jquery.vide.js" />
     <Content Include="js\jquery.masonry\imagesloaded.pkgd.min.js" />
     <Content Include="js\jquery.masonry\masonry.pkgd.min.js" />
+    <Content Include="js\pace\pace.min.js" />
     <Content Include="js\wow\wow.min.js" />
     <Content Include="plugs.html" />
     <Content Include="sample\carousel.html" />
     <Content Include="sample\iframe\child.html" />
     <Content Include="sample\iframe\parent.html" />
+    <Content Include="sample\pace.html" />
     <Content Include="sample\scrolltop.html" />
     <Content Include="sample\ui\masonrylazyappend.html" />
     <Content Include="sample\ui\masonryimg.html" />
