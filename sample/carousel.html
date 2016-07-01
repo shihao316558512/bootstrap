@@ -6,17 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="../favicon.ico" />
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
-    <script src="../js/jquery-1.9.1.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap/bootstrap.min.js"></script>
     <!--[if lt IE 9]>
       <script src="../js/bootstrap/html5shiv.min.js"></script>
       <script src="../js/bootstrap/respond.min.js"></script>
     <![endif]-->
-    <link href="../css/font-awesome.min.css" rel="stylesheet" />
     <script src="../js/jquery.hammer/hammer.min.js"></script>
     <script src="../js/jquery.hammer/jquery.hammer.js"></script>
-    <!--主要写的js代码-->
-    <script src="../js/default.js" type="text/javascript"></script>
+    <script>
+        $(function () {
+            $('.carousel').hammer().on('swipeleft', function () {
+                $(this).carousel('next');
+            });
+            $('.carousel').hammer().on('swiperight', function () {
+                $(this).carousel('prev');
+            });
+        })
+    </script>
     <!--百度统计代码-->
     <script>
         var _hmt = _hmt || [];
@@ -26,7 +33,7 @@
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
-    </script> 
+    </script>
 </head>
 <body>
     <div class="container">

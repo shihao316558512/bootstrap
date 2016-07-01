@@ -72,7 +72,6 @@
     <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\hue-horizontal.png" />
     <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\hue.png" />
     <Content Include="css\bootstrap.colorpicker\img\bootstrap-colorpicker\saturation.png" />
-    <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.datepicker\bootstrap-datepicker3.min.css" />
     <Content Include="css\bootstrap.DateRangePicker\daterangepicker.css" />
     <Content Include="css\bootstrap.min.css" />
@@ -83,6 +82,7 @@
     <Content Include="css\bootstrap.metisMenu\demo.css" />
     <Content Include="css\bootstrap.metisMenu\metisMenu.min.css" />
     <Content Include="css\jquery.toastr\toastr.min.css" />
+    <Content Include="css\pace\dataurl.css" />
     <Content Include="css\wow\animate.css" />
     <Content Include="favicon.ico" />
     <Content Include="image\forkme.png" />
@@ -174,7 +174,7 @@
     <Content Include="js\bootstrap.switch\bootstrap-switch.min.js" />
     <Content Include="js\default.js" />
     <Content Include="js\bootstrap\html5shiv.min.js" />
-    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery.min.js" />
     <Content Include="js\jquery.extend.js" />
     <Content Include="js\jquery.hammer\hammer.min.js" />
     <Content Include="js\jquery.hammer\jquery.hammer.js" />
@@ -186,11 +186,13 @@
     <Content Include="js\bootstrap\respond.min.js" />
     <Content Include="js\jquery.scrolltopcontrol\scrolltopcontrol.js" />
     <Content Include="js\jquery.toastr\toastr.min.js" />
+    <Content Include="js\pace\pace.min.js" />
     <Content Include="js\wow\wow.min.js" />
     <Content Include="plugs.html" />
     <Content Include="sample\carousel.html" />
     <Content Include="sample\iframe\child.html" />
     <Content Include="sample\iframe\parent.html" />
+    <Content Include="sample\pace.html" />
     <Content Include="sample\scrolltop.html" />
     <Content Include="sample\ui\masonry.html" />
     <Content Include="sample\ui\masonryimg.html" />
@@ -207,7 +209,6 @@
     <Content Include="top3.html" />
     <Content Include="top2.html" />
     <Content Include="top1.html" />
-    <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
