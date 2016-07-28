@@ -59,17 +59,17 @@ var pageInitModule = (function (mod) {
             $(this).parent().siblings().find(".sub-menu").slideUp();
             $(this).parent().find(".sub-menu").slideToggle();
         })
-        var _strcurrenturl = window.location.href.toLowerCase();
+        var _strcurrenturl = window.location.href;
         $(".nav li").each(function () {
             var isActive = false;
             var currentTarget = $(this);
             $(".breadcrumb>li a").each(function (index) {
-                if (currentTarget.find("a").attr("href").toLowerCase() == $(this).attr("href").toLowerCase()) {
+                if (currentTarget.find("a").attr("href") == $(this).attr("href")) {
                     isActive = true;
                     return false;
                 }
             })
-            if (_strcurrenturl.indexOf($(this).find(">a").attr("href").toLowerCase()) > -1 || isActive) {
+            if (_strcurrenturl.indexOf($(this).find(">a").attr("href")) > -1 || isActive) {
                 $(this).addClass("active");
                 if ($(this).parent().attr("class") == "sub-menu") {
                     $(this).parent().slideDown();
