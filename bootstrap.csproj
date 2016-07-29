@@ -188,7 +188,7 @@
     <Content Include="js\jquery.toastr\toastr.min.js" />
     <Content Include="js\pace\pace.min.js" />
     <Content Include="js\wow\wow.min.js" />
-    <Content Include="plugs.html" />
+    <Content Include="plugin.html" />
     <Content Include="sample\carousel.html" />
     <Content Include="sample\iframe\child.html" />
     <Content Include="sample\iframe\parent.html" />
@@ -222,7 +222,7 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="uis.html" />
+    <Content Include="ui.html" />
     <Content Include="video\ocean.jpg" />
     <Content Include="video\ocean.mp4" />
   </ItemGroup>
