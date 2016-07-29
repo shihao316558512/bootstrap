@@ -58,6 +58,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="animate.html" />
+    <Content Include="chart.html" />
     <Content Include="css\bootstrap.datepicker\bootstrap-datepicker3.min.css" />
     <Content Include="css\bootstrap.datetimepicker\bootstrap-datetimepicker.min.css" />
     <Content Include="css\bootstrap.formhelper\css\bootstrap-formhelpers.min.css" />
@@ -85,6 +87,7 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\bootstrap.sweetalert\sweet-alert.css" />
     <Content Include="favicon.ico" />
+    <Content Include="form.html" />
     <Content Include="image\forkme.png" />
     <Content Include="image\picture-loading.gif" />
     <Content Include="js\bootstrap.colorpicker\bootstrap-colorpicker.min.js" />
@@ -179,7 +182,7 @@
     <Content Include="js\jquery.masonry\masonry.pkgd.min.js" />
     <Content Include="js\pace\pace.min.js" />
     <Content Include="js\wow\wow.min.js" />
-    <Content Include="plugin.html" />
+    <Content Include="message.html" />
     <Content Include="sample\carousel.html" />
     <Content Include="sample\iframe\child.html" />
     <Content Include="sample\iframe\parent.html" />
