@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" />
+    <!--jquery库-->
+    <script src="js/jquery.min.js"></script>
+    <!--bootstrap库-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="js/bootstrap/html5shiv.min.js"></script>
+      <script src="js/bootstrap/respond.min.js"></script>
+    <![endif]-->
+    <!--font-awesome字体库-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!--页面加载进度条-->
+    <link href="css/pace/dataurl.css" rel="stylesheet" />
+    <script src="js/pace/pace.min.js"></script>
+    <!--平滑滚动到顶部库-->
+    <script src="js/jquery.scrolltopcontrol/scrolltopcontrol.js" type="text/javascript"></script>
+    <!--主要写的jquery拓展方法-->
+    <script src="js/jquery.extend.js" type="text/javascript"></script>
+    <!--主要写的css代码-->
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <!--主要写的js代码-->
+    <script src="js/default.js" type="text/javascript"></script>
+    <!--百度统计代码-->
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?2e8951f59909796d248b68fae4574b44";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle show pull-left" data-target="sidebar">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Bootstrap</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="top1.html">top1.html</a></li>
+                    <li><a href="top2.html">top2.html</a></li>
+                    <li><a href="top3.html">top3.html</a></li>
+                    <li><a href="https://github.com/shihao316558512/bootstrap" target="_blank"><i class="fa fa-download fa-fw"></i>&nbsp;原码下载</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-expanded="false"><i class="fa fa-user fa-fw"></i>&nbsp;小王&nbsp;<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="top-right1.html">top-right1.html</a></li>
+                            <li class="divider"></li>
+                            <li><a href="top-right2.html">top-right2.html</a></li>
+                            <li class="divider"></li>
+                            <li><a href="top-right3.html"><i class="fa fa-sign-out fa-fw"></i>&nbsp;top-right3.html</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid all">
+        <div class="sidebar">
+            <ul class="nav">
+                <li><a href="index.html">主页面</a></li>
+                <li><a href="form.html">Form库</a></li>
+                <li><a href="message.html">Message库</a></li>
+                <li><a href="ui.html">UI库</a></li>
+                <li><a href="animate.html">Animate库</a></li>
+                <li><a href="chart.html">Chart库</a></li>
+                <li class="has-sub">
+                    <a href="javascript:void(0);"><span>导航选中演示</span><i class="fa fa-caret-right fa-fw pull-right"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="left1.html"><i class="fa fa-circle-o fa-fw"></i>&nbsp;left1</a></li>
+                        <li><a href="left2.html"><i class="fa fa-circle-o fa-fw"></i>&nbsp;left2</a></li>
+                        <li><a href="left3.html"><i class="fa fa-circle-o fa-fw"></i>&nbsp;left3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="maincontent row form-horizontal">
+            <!--我是主要内容 start-->
+            <ul class="breadcrumb">
+                <li class="active">Animate库</li>
+            </ul>
+            <div class="col-sm-12">
+                <!--wow特效start-->
+                <div class="row" id="animate-wow">
+                    <div class="page-header text-center">
+                        <h2>动画特效1</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    WOW.js
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="http://mynameismatthieu.com/WOW/index.html" class="btn btn-info" target="_blank">http://mynameismatthieu.com/WOW/index.html</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-1 control-label">特殊说明</label>
+                            <div class="col-sm-11">
+                                <p class="form-control-static">注意：如果将该特效用在<label class="label label-danger">商业项目</label>中，最好是付费后用哦。详细看官网</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/wow/animate.css" rel="stylesheet" />
+                    <script src="js/wow/wow.min.js"></script>
+                    <script>
+                        $(function () {
+                            $("#btnWowTest").click(function () {
+                                new WOW().init();
+                            })
+                        })
+                    </script>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
+                            <div class="col-sm-10">
+                                <div class="col-sm-6">
+                                    <div class="wow rollIn" data-wow-offset="10" data-wow-iteration="10" ata-wow-delay="0.5s" style="background-color:deeppink; width:100px; height:100px;color:#fff;">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a class="btn btn-primary" id="btnWowTest"><i class="fa fa-hand-o-left"></i>&nbsp;点我</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--wow特效end-->
+                <!--hover特效start-->
+                <div class="row" id="animate-hover">
+                    <div class="page-header text-center">
+                        <h2>CSS特效1</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    Hover.css
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="http://ianlunn.github.io/Hover/" class="btn btn-info" target="_blank">http://ianlunn.github.io/Hover/</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/hover/hover-min.css" rel="stylesheet" />
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
+                            <div class="col-sm-10">
+                                <div class="col-sm-6">
+                                    <a href="#" class="hvr-sweep-to-right" style="width:100px; height:50px; text-decoration:none; color:dimgray; border:1px solid #808080;"></a>
+                                    <a href="#" class="hvr-icon-down" style="width:100px; height:50px; text-decoration:none; color:dimgray; border:1px solid #808080;">Icon Down</a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="form-control-static">
+                                        <label class="label label-info"><i class="fa fa-hand-o-left"></i>&nbsp;鼠标放上去</label>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--hover特效end-->
+                <!--animo特效库start-->
+                <div class="row" id="animate-animo">
+                    <div class="page-header text-center">
+                        <h2>动画特效2</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    animo.js
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
+                            <div class="col-sm-10">
+                                <a href="http://labs.bigroomstudios.com/libraries/animo-js" class="btn btn-info" target="_blank">http://labs.bigroomstudios.com/libraries/animo-js</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-1 control-label">特殊说明</label>
+                            <div class="col-sm-11">
+                                <p class="form-control-static">该特效依赖jquery库</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <link href="css/jquery.animo/animate-animo.min.css" rel="stylesheet" />
+                    <script src="js/jquery.animo/animo.min.js"></script>
+                    <script>
+                        $(function () {
+                            $("#btnAnimoTest").click(function () {
+                                $('#divAnimoTest').animo({ animation: 'tada' });
+                            })
+                        })
+                    </script>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
+                            <div class="col-sm-10">
+                                <div class="col-sm-6">
+                                    <div id="divAnimoTest" style="background-color:gray; width:100px; height:100px;">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a class="btn btn-primary" id="btnAnimoTest"><i class="fa fa-hand-o-left"></i>&nbsp;点我</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--animo特效库end-->
+            </div>
+            <!--我是主要内容 end-->
+        </div>
+    </div>
+    <a href="#top" id="goTop"><i class="fa fa-angle-up fa-3x"></i></a>
+    <a href="https://github.com/shihao316558512">
+        <img class="forkme" src="image/forkme.png" alt="Fork me on GitHub">
+    </a>
+</body>
+</html>

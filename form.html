@@ -78,10 +78,13 @@
         <div class="sidebar">
             <ul class="nav">
                 <li><a href="index.html">主页面</a></li>
-                <li><a href="plugin.html">插件库</a></li>
+                <li><a href="form.html">Form库</a></li>
+                <li><a href="message.html">Message库</a></li>
                 <li><a href="ui.html">UI库</a></li>
+                <li><a href="animate.html">Animate库</a></li>
+                <li><a href="chart.html">Chart库</a></li>
                 <li class="has-sub">
-                    <a href="javascript:void(0);"><span>测试页面</span><i class="fa fa-caret-right fa-fw pull-right"></i></a>
+                    <a href="javascript:void(0);"><span>导航选中演示</span><i class="fa fa-caret-right fa-fw pull-right"></i></a>
                     <ul class="sub-menu">
                         <li><a href="left1.html"><i class="fa fa-circle-o fa-fw"></i>&nbsp;left1</a></li>
                         <li><a href="left2.html"><i class="fa fa-circle-o fa-fw"></i>&nbsp;left2</a></li>
@@ -93,11 +96,11 @@
         <div class="maincontent row form-horizontal">
             <!--我是主要内容 start-->
             <ul class="breadcrumb">
-                <li class="active">插件库</li>
+                <li class="active">Form库</li>
             </ul>
             <div class="col-sm-12">
                 <!--日期选择插件data-picker start-->
-                <div class="row" id="plug-datepicker">
+                <div class="row" id="form-datepicker">
                     <div class="page-header text-center">
                         <h2>bootstrap日期选择插件</h2>
                     </div>
@@ -190,7 +193,7 @@
                 </div>
                 <!--日期选择插件data-picker end-->
                 <!--日期及时间范围选择插件DateRangePicker start-->
-                <div class="row" id="plug-DateRangePicker">
+                <div class="row" id="form-DateRangePicker">
                     <div class="page-header text-center">
                         <h2>bootstrap日期及时间范围选择插件</h2>
                     </div>
@@ -265,7 +268,7 @@
                 </div>
                 <!--日期及时间范围范围选择插件DateRangePicker end-->
                 <!--日期时间选择插件datetimepicker start-->
-                <div class="row" id="plug-datetimepicker">
+                <div class="row" id="form-datetimepicker">
                     <div class="page-header text-center">
                         <h2>bootstrap日期时间选择插件</h2>
                     </div>
@@ -308,7 +311,7 @@
                     <script src="js/bootstrap.datetimepicker/bootstrap-datetimepicker.min.js"></script>
                     <style>
                         /*这里为了解决上面插件定义的样式污染的问题*/
-                        #plug-datetimepicker .datepicker { margin-top: auto; }
+                        #form-datetimepicker .datepicker { margin-top: auto; }
                     </style>
                     <script type="text/javascript">
                         $(function () {
@@ -349,116 +352,8 @@
                     </div>
                 </div>
                 <!--日期时间选择插件datetimepicker end-->
-                <!--通知插件toastr start-->
-                <div class="row" id="plug-toastr">
-                    <div class="page-header text-center">
-                        <h2>通知插件1</h2>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
-                            <div class="col-sm-10">
-                                <p class="form-control-static">
-                                    Toastr
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
-                            <div class="col-sm-10">
-                                <a href="http://codeseven.github.io/toastr/" class="btn btn-info" target="_blank">http://codeseven.github.io/toastr/</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-1 control-label">特殊说明</label>
-                            <div class="col-sm-11">
-                                <p class="form-control-static">该插件依赖jquery库</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <link href="css/jquery.toastr/toastr.min.css" rel="stylesheet" />
-                    <script src="js/jquery.toastr/toastr.min.js"></script>
-                    <style>
-                        .toast-top-right { top: 62px; }
-                    </style>
-                    <script>
-                        $(function () {
-                            $("#btnShowMsg1").click(function () {
-                                toastr.options = {
-                                    "progressBar": true
-                                }
-                                toastr.info('Are you the 6 fingered man?');
-                            })
-                        })
-                    </script>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
-                            <div class="col-sm-10">
-                                <a class="btn btn-info" id="btnShowMsg1">点我</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--通知插件toastr end-->
-                <!--通知插件sweetalert start-->
-                <div class="row" id="plug-sweetalert">
-                    <div class="page-header text-center">
-                        <h2>通知插件2</h2>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
-                            <div class="col-sm-10">
-                                <p class="form-control-static">
-                                    SweetAlert for Bootstrap
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
-                            <div class="col-sm-10">
-                                <a href="https://lipis.github.io/bootstrap-sweetalert/" class="btn btn-info" target="_blank">https://lipis.github.io/bootstrap-sweetalert/</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-1 control-label">特殊说明</label>
-                            <div class="col-sm-11">
-                                <p class="form-control-static">该插件依赖bootstrap库</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <link href="css/bootstrap.sweetalert/sweet-alert.css" rel="stylesheet" />
-                    <script src="js/bootstrap.sweetalert/sweet-alert.min.js"></script>
-                    <script>
-                        $(function () {
-                            $("#btnShowMsg2").click(function () {
-                                swal("Here's a message!");
-                            })
-                        })
-                    </script>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
-                            <div class="col-sm-10">
-                                <a class="btn btn-info" id="btnShowMsg2">点我</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--通知插件sweetalert end-->
                 <!--选色插件colorpicker start-->
-                <div class="row" id="plug-colorpicker">
+                <div class="row" id="form-colorpicker">
                     <div class="page-header text-center">
                         <h2>bootstrap选色插件</h2>
                     </div>
@@ -511,66 +406,8 @@
                     </div>
                 </div>
                 <!--选择插件colorpicker end-->
-                <!--开关插件switch start-->
-                <div class="row" id="plug-switch">
-                    <div class="page-header text-center">
-                        <h2>bootstrap开关插件</h2>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
-                            <div class="col-sm-10">
-                                <p class="form-control-static">
-                                    Bootstrap Switch
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
-                            <div class="col-sm-10">
-                                <a href="http://www.bootstrap-switch.org/" class="btn btn-info" target="_blank">http://www.bootstrap-switch.org/</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-1 control-label">特殊说明</label>
-                            <div class="col-sm-11">
-                                <p class="form-control-static">该插件依赖jquery库</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <link href="css/bootstrap.switch/bootstrap-switch.min.css" rel="stylesheet" />
-                    <script src="js/bootstrap.switch/bootstrap-switch.min.js"></script>
-                    <script>
-                        $(function () {
-                            //插件初始化
-                            $("[name='my-checkbox']").bootstrapSwitch();
-                            $("[name='my-checkbox1']").bootstrapSwitch();
-                            //下面是事件捕获的用法
-                            $('input[name="my-checkbox"]').on('switchChange.bootstrapSwitch', function (event, state) {
-                                console.log(this); // DOM element
-                                console.log(event); // jQuery event
-                                console.log(state); // true | false
-                            });
-                        });
-                    </script>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
-                            <div class="col-sm-10">
-                                <input type="checkbox" name="my-checkbox" checked>
-                                <input type="checkbox" data-size="small" name="my-checkbox1" checked>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--开关插件switch end-->
                 <!--formhelper start-->
-                <div class="row" id="plug-formhelper">
+                <div class="row" id="form-formhelper">
                     <div class="page-header text-center">
                         <h2>Bootstrap Form Helper 插件集合</h2>
                     </div>
@@ -624,109 +461,6 @@
                     </div>
                 </div>
                 <!--formhelper end-->
-                <!--tab drop start-->
-                <div id="plug-tabdrop" class="row" style="padding-bottom: 150px; ">
-                    <div class="page-header text-center">
-                        <h2>bootstrap-tab超出自动折叠插件</h2>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">插件名</label>
-                            <div class="col-sm-10">
-                                <p class="form-control-static">
-                                    Tab drop for Bootstrap <small>bootstrap-tabdrop.js</small>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">官网</label>
-                            <div class="col-sm-10">
-                                <a href="http://www.eyecon.ro/bootstrap-tabdrop/" class="btn btn-info" target="_blank">http://www.eyecon.ro/bootstrap-tabdrop/</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-1 control-label">特殊说明</label>
-                            <div class="col-sm-11">
-                                <p class="form-control-static">该插件依赖bootstrap库</p>
-                            </div>
-                        </div>
-                    </div>
-                    <link href="css/bootstrap.tabdrop/tabdrop.css" rel="stylesheet" />
-                    <script src="js/bootstrap.tabdrop/bootstrap-tabdrop.js"></script>
-                    <script>
-                        $(function () {
-                            $('.nav-tabs').eq(0).tabdrop();
-                            $('.nav-tabs').eq(1).tabdrop({ text: '<i class="fa fa-align-justify"></i>' });
-                        })
-                    </script>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">使用效果</label>
-                            <div class="col-sm-10">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <!-- Nav tabs -->
-                                        <ul class="nav nav-tabs" role="tablist">
-                                            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-                                            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-                                            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-                                            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-                                            <li role="presentation"><a href="#settings1" aria-controls="settings1" role="tab" data-toggle="tab">Settings1</a></li>
-                                            <li role="presentation"><a href="#settings2" aria-controls="settings2" role="tab" data-toggle="tab">Settings2</a></li>
-                                            <li role="presentation"><a href="#settings3" aria-controls="settings3" role="tab" data-toggle="tab">Settings3</a></li>
-                                            <li role="presentation"><a href="#settings4" aria-controls="settings4" role="tab" data-toggle="tab">Settings4</a></li>
-                                            <li role="presentation"><a href="#settings5" aria-controls="settings5" role="tab" data-toggle="tab">Settings5</a></li>
-                                        </ul>
-                                        <!-- Tab panes -->
-                                        <div class="tab-content">
-                                            <div role="tabpanel" class="tab-pane active" id="home">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="profile">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="messages">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="settings">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="settings1">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="settings2">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="settings3">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="settings4">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="settings5">...</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6">
-                                        <!-- Nav tabs -->
-                                        <ul class="nav nav-tabs" role="tablist">
-                                            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-                                            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-                                            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-                                            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-                                            <li role="presentation"><a href="#settings1" aria-controls="settings1" role="tab" data-toggle="tab">Settings1</a></li>
-                                            <li role="presentation"><a href="#settings2" aria-controls="settings2" role="tab" data-toggle="tab">Settings2</a></li>
-                                            <li role="presentation"><a href="#settings3" aria-controls="settings3" role="tab" data-toggle="tab">Settings3</a></li>
-                                            <li role="presentation"><a href="#settings4" aria-controls="settings4" role="tab" data-toggle="tab">Settings4</a></li>
-                                            <li role="presentation"><a href="#settings5" aria-controls="settings5" role="tab" data-toggle="tab">Settings5</a></li>
-                                        </ul>
-                                        <!-- Tab panes -->
-                                        <div class="tab-content">
-                                            <div role="tabpanel" class="tab-pane active" id="home">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="profile">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="messages">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="settings">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="settings1">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="settings2">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="settings3">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="settings4">...</div>
-                                            <div role="tabpanel" class="tab-pane" id="settings5">...</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--tab drop end-->
             </div>
             <!--我是主要内容 end-->
         </div>

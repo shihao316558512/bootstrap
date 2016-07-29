@@ -58,6 +58,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="animate.html" />
+    <Content Include="chart.html" />
     <Content Include="css\bootstrap.datetimepicker\bootstrap-datetimepicker.min.css" />
     <Content Include="css\bootstrap.formhelper\css\bootstrap-formhelpers.min.css" />
     <Content Include="css\bootstrap.formhelper\img\bootstrap-formhelpers-countries.flags-LICENSE.txt" />
@@ -85,6 +87,7 @@
     <Content Include="css\pace\dataurl.css" />
     <Content Include="css\wow\animate.css" />
     <Content Include="favicon.ico" />
+    <Content Include="form.html" />
     <Content Include="image\forkme.png" />
     <Content Include="image\picture-loading.gif" />
     <Content Include="image\screenshot\metisMenu_error.png" />
@@ -188,7 +191,7 @@
     <Content Include="js\jquery.toastr\toastr.min.js" />
     <Content Include="js\pace\pace.min.js" />
     <Content Include="js\wow\wow.min.js" />
-    <Content Include="plugin.html" />
+    <Content Include="message.html" />
     <Content Include="sample\carousel.html" />
     <Content Include="sample\iframe\child.html" />
     <Content Include="sample\iframe\parent.html" />

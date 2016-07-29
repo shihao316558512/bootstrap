@@ -5,20 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="favicon.ico" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <!--jquery库-->
     <script src="js/jquery.min.js"></script>
+    <!--bootstrap库-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <!--[if lt IE 9]>
       <script src="js/bootstrap/html5shiv.min.js"></script>
       <script src="js/bootstrap/respond.min.js"></script>
     <![endif]-->
+    <!--font-awesome字体库-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
     <!--页面加载进度条-->
     <link href="css/pace/dataurl.css" rel="stylesheet" />
     <script src="js/pace/pace.min.js"></script>
+    <!--平滑滚动到顶部库-->
     <script src="js/jquery.scrolltopcontrol/scrolltopcontrol.js" type="text/javascript"></script>
+    <!--主要写的jquery拓展方法-->
     <script src="js/jquery.extend.js" type="text/javascript"></script>
+    <!--主要写的css代码-->
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <!--主要写的js代码-->
     <script src="js/default.js" type="text/javascript"></script>
     <!--百度统计代码-->
     <script>
@@ -29,7 +36,7 @@
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
-    </script> 
+    </script>
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -86,8 +93,14 @@
                 </li>
             </ul>
         </div>
-        <div class="maincontent">
-            <!--我是主要内容-->
+        <div class="maincontent row form-horizontal">
+            <!--我是主要内容 start-->
+            <ul class="breadcrumb">
+                <li class="active">Chart库</li>
+            </ul>
+            <div class="col-sm-12">
+            </div>
+            <!--我是主要内容 end-->
         </div>
     </div>
     <a href="#top" id="goTop"><i class="fa fa-angle-up fa-3x"></i></a>
