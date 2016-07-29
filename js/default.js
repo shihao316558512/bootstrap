@@ -59,20 +59,20 @@ var pageInitModule = (function (mod) {
             $(this).parent().siblings().find(".sub-menu").slideUp();
             $(this).parent().find(".sub-menu").slideToggle();
         })
-        var _strcurrenturl = window.location.href;
-        $(".nav li").each(function () {
+        var _strcurrenturl = window.location.href.toLowerCase();
+        $(".navbar-nav a[href],.sidebar a[href]").each(function () {
+            var href = $(this).attr("href").toLowerCase();
             var isActive = false;
-            var currentTarget = $(this);
-            $(".breadcrumb>li a").each(function (index) {
-                if (currentTarget.find("a").attr("href") == $(this).attr("href")) {
+            $(".breadcrumb>li a[href]").each(function (index) {
+                if (href == $(this).attr("href").toLowerCase()) {
                     isActive = true;
                     return false;
                 }
             })
-            if (_strcurrenturl.indexOf($(this).find(">a").attr("href")) > -1 || isActive) {
-                $(this).addClass("active");
-                if ($(this).parent().attr("class") == "sub-menu") {
-                    $(this).parent().slideDown();
+            if (_strcurrenturl.indexOf(href) > -1 || isActive) {
+                $(this).parent().addClass("active");
+                if ($(this).parents("ul").attr("class") == "sub-menu") {
+                    $(this).parents("ul").slideDown();
                     $(this).parents(".has-sub").addClass("active");
                 }
             }
