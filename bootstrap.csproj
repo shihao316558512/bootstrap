@@ -89,6 +89,7 @@
     <Content Include="css\jquery.fullpage\jquery.fullPage.css" />
     <Content Include="css\jquery.mmenu\demo.css" />
     <Content Include="css\jquery.mmenu\jquery.mmenu.all.css" />
+    <Content Include="js\jquery.flot\jquery.flot.min.js" />
     <Content Include="js\jquery.mmenu\jquery.mmenu.min.js" />
     <Content Include="css\jquery.owl.carousel.2\owl.carousel.min.css" />
     <Content Include="css\jquery.owl.carousel\owl.carousel.css" />
@@ -211,6 +212,7 @@
     <Content Include="sample\carousel\fullpage.html" />
     <Content Include="sample\carousel\owlcarousel.html" />
     <Content Include="sample\carousel\owlcarousel2.html" />
+    <Content Include="sample\chart\flot.html" />
     <Content Include="sample\iframe\child.html" />
     <Content Include="sample\iframe\parent.html" />
     <Content Include="sample\pace.html" />

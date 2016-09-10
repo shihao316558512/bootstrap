@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="../../favicon.ico" />
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/jquery.flot/jquery.flot.min.js"></script>
+    <style>
+        .demo-container { box-sizing: border-box; width: 850px; height: 450px; padding: 20px 15px 15px 15px; margin: 15px auto 30px auto; border: 1px solid #ddd; background: #fff; background: linear-gradient(#f6f6f6 0, #fff 50px); background: -o-linear-gradient(#f6f6f6 0, #fff 50px); background: -ms-linear-gradient(#f6f6f6 0, #fff 50px); background: -moz-linear-gradient(#f6f6f6 0, #fff 50px); background: -webkit-linear-gradient(#f6f6f6 0, #fff 50px); box-shadow: 0 3px 10px rgba(0,0,0,0.15); -o-box-shadow: 0 3px 10px rgba(0,0,0,0.1); -ms-box-shadow: 0 3px 10px rgba(0,0,0,0.1); -moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1); -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1); }
+
+        .demo-placeholder { width: 100%; height: 100%; font-size: 14px; line-height: 1.2em; }
+    </style>
+    <script type="text/javascript">
+
+        $(function () {
+
+            var d1 = [];
+            for (var i = 0; i < 14; i += 0.5) {
+                d1.push([i, Math.sin(i)]);
+            }
+
+            var d2 = [[0, 3], [4, 8], [8, 5], [9, 13]];
+
+            // A null signifies separate line segments
+
+            var d3 = [[0, 12], [7, 12], null, [7, 2.5], [12, 2.5]];
+
+            $.plot("#placeholder", [d1, d2, d3]);
+
+        });
+
+    </script>
+</head>
+<body>
+
+    <div class="demo-container">
+        <div id="placeholder" class="demo-placeholder"></div>
+    </div>
+
+
+</body>
+</html>
