@@ -180,6 +180,8 @@
     <Content Include="js\bootstrap\html5shiv.min.js" />
     <Content Include="js\bootstrap\respond.min.js" />
     <Content Include="js\jquery.animo\animo.min.js" />
+    <Content Include="js\jquery.flot\jquery.flot.min.js" />
+    <Content Include="js\jquery.fotorama\fotorama.js" />
     <Content Include="js\jquery.fullpage\jquery.fullPage.min.js" />
     <Content Include="js\jquery.hammer\hammer.min.js" />
     <Content Include="js\jquery.hammer\jquery.hammer.js" />
@@ -204,6 +206,7 @@
     <Content Include="sample\carousel\fullpage.html" />
     <Content Include="sample\carousel\owlcarousel.html" />
     <Content Include="sample\carousel\owlcarousel2.html" />
+    <Content Include="sample\chart\flot.html" />
     <Content Include="sample\iframe\child.html" />
     <Content Include="sample\iframe\parent.html" />
     <Content Include="sample\pace.html" />
@@ -253,9 +256,7 @@
     <Content Include="video\ocean.ogv" />
     <Content Include="video\ocean.webm" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="js\jquery.fotorama\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
