@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" />
+    <link href="../css/jquery.owl.carousel/owl.carousel.css" rel="stylesheet" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.owl.carousel/owl.carousel.min.js"></script>
+    <style>
+        #owl-demo .item { margin: 3px; }
+        #owl-demo .item img { display: block; width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div id="owl-demo" class="owl-carousel">
+        <div class="item"><img src="http://placehold.it/1200x675&text=First+slide" alt="Owl Image"></div>
+        <div class="item"><img src="http://placehold.it/1200x675&text=First+slide" alt="Owl Image"></div>
+        <div class="item"><img src="http://placehold.it/1200x675&text=First+slide" alt="Owl Image"></div>
+        <div class="item"><img src="http://placehold.it/1200x675&text=First+slide" alt="Owl Image"></div>
+        <div class="item"><img src="http://placehold.it/1200x675&text=First+slide" alt="Owl Image"></div>
+        <div class="item"><img src="http://placehold.it/1200x675&text=First+slide" alt="Owl Image"></div>
+        <div class="item"><img src="http://placehold.it/1200x675&text=First+slide" alt="Owl Image"></div>
+        <div class="item"><img src="http://placehold.it/1200x675&text=First+slide" alt="Owl Image"></div>
+    </div>
+    <script>
+        $(document).ready(function () {
+
+            $("#owl-demo").owlCarousel({
+
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+                items: 4,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3]
+
+            });
+
+        });
+    </script>
+</body>
+</html>

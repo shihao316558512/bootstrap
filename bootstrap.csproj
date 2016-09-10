@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="animate.html" />
+    <Content Include="carousel.html" />
     <Content Include="chart.html" />
     <Content Include="css\bootstrap.datetimepicker\bootstrap-datetimepicker.min.css" />
     <Content Include="css\bootstrap.formhelper\css\bootstrap-formhelpers.min.css" />
@@ -83,6 +84,12 @@
     <Content Include="css\hover\hover-min.css" />
     <Content Include="css\bootstrap.metisMenu\demo.css" />
     <Content Include="css\bootstrap.metisMenu\metisMenu.min.css" />
+    <Content Include="css\jquery.fotorama\fotorama.css" />
+    <Content Include="css\jquery.fullpage\examples.css" />
+    <Content Include="css\jquery.fullpage\jquery.fullPage.css" />
+    <Content Include="css\jquery.owl.carousel.2\owl.carousel.min.css" />
+    <Content Include="css\jquery.owl.carousel\owl.carousel.css" />
+    <Content Include="css\jquery.superslides\superslides.css" />
     <Content Include="css\jquery.toastr\toastr.min.css" />
     <Content Include="css\pace\dataurl.css" />
     <Content Include="css\wow\animate.css" />
@@ -177,6 +184,8 @@
     <Content Include="js\bootstrap.switch\bootstrap-switch.min.js" />
     <Content Include="js\default.js" />
     <Content Include="js\bootstrap\html5shiv.min.js" />
+    <Content Include="js\jquery.fotorama\fotorama.js" />
+    <Content Include="js\jquery.fullpage\jquery.fullPage.min.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\jquery.extend.js" />
     <Content Include="js\jquery.hammer\hammer.min.js" />
@@ -184,6 +193,11 @@
     <Content Include="js\jquery.lazyload\jquery.lazyload.min.js" />
     <Content Include="js\jquery.masonry\imagesloaded.pkgd.min.js" />
     <Content Include="js\jquery.masonry\masonry.pkgd.min.js" />
+    <Content Include="js\jquery.owl.carousel.2\owl.carousel.min.js" />
+    <Content Include="js\jquery.owl.carousel\owl.carousel.min.js" />
+    <Content Include="js\jquery.superslides\jquery.animate-enhanced.min.js" />
+    <Content Include="js\jquery.superslides\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.superslides\jquery.superslides.min.js" />
     <Content Include="js\jquery.vide\jquery.vide.js" />
     <Content Include="js\bootstrap.metisMenu\metisMenu.min.js" />
     <Content Include="js\bootstrap\respond.min.js" />
@@ -193,10 +207,15 @@
     <Content Include="js\wow\wow.min.js" />
     <Content Include="message.html" />
     <Content Include="sample\carousel.html" />
+    <Content Include="sample\fotorama.html" />
+    <Content Include="sample\fullpage.html" />
+    <Content Include="sample\owlcarousel.html" />
+    <Content Include="sample\owlcarousel2.html" />
     <Content Include="sample\iframe\child.html" />
     <Content Include="sample\iframe\parent.html" />
     <Content Include="sample\pace.html" />
     <Content Include="sample\scrolltop.html" />
+    <Content Include="sample\superslides.html" />
     <Content Include="sample\ui\masonry.html" />
     <Content Include="sample\ui\masonryimg.html" />
     <Content Include="sample\ui\masonrylazyappend.html" />
@@ -236,7 +255,6 @@
     <Content Include="video\ocean.ogv" />
     <Content Include="video\ocean.webm" />
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
