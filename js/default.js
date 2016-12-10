@@ -31,8 +31,8 @@ var pageInitModule = (function (mod) {
             $(".sidebar").css({ left: -220 });
             $(".all").css({ marginLeft: 0 });
         } else {
-            $(".sidebar").animate({ left: 0 });
-            $(".all").animate({ marginLeft: 220 });
+            $(".sidebar").css({ left: 0 });
+            $(".all").css({ marginLeft: 220 });
         }
     };
     mod.setScrollToTop = function () {
