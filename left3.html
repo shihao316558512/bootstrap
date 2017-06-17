@@ -29,7 +29,7 @@
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
-    </script> 
+    </script>
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -82,13 +82,19 @@
                     <ul class="sub-menu">
                         <li><a href="left1.html"><i class="fa fa-circle-o fa-fw"></i>&nbsp;left1</a></li>
                         <li><a href="left2.html"><i class="fa fa-circle-o fa-fw"></i>&nbsp;left2</a></li>
-                        <li><a href="left3.html"><i class="fa fa-circle-o fa-fw"></i>&nbsp;left3</a></li>
+                        <li><a href="left3.html"><i class="fa fa-circle-o fa-fw"></i>&nbsp;left3及子页面</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
         <div class="maincontent">
             <!--我是主要内容-->
+            <ul class="breadcrumb">
+                <li class="active">left3及子页面</li>
+            </ul>
+            <div class="col-sm-12">
+                <a href="leftchild.html" class="btn btn-primary">leftchild</a>
+            </div>
         </div>
     </div>
     <a href="#top" id="goTop"><i class="fa fa-angle-up fa-3x"></i></a>
