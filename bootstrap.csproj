@@ -20,6 +20,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -89,6 +90,7 @@
     <Content Include="css\jquery.fullpage\jquery.fullPage.css" />
     <Content Include="css\jquery.mmenu\demo.css" />
     <Content Include="css\jquery.mmenu\jquery.mmenu.all.css" />
+    <Content Include="image\screenshot\20170920170941pacebug.png" />
     <Content Include="js\jquery.flot\jquery.flot.min.js" />
     <Content Include="js\jquery.mmenu\jquery.mmenu.min.js" />
     <Content Include="css\jquery.owl.carousel.2\owl.carousel.min.css" />
