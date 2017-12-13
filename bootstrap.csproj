@@ -59,6 +59,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="2.html" />
     <Content Include="animate.html" />
     <Content Include="carousel.html" />
     <Content Include="chart.html" />
