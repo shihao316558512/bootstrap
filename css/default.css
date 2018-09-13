@@ -5,7 +5,11 @@
 }
 
 .all { margin-top: 50px; margin-left: 220px; z-index: 20; padding-left: 0; padding-right: 0; }
-.sidebar { position: fixed; left: 0; top: 50px; width: 220px; padding: 0; background-color: #f1f1f1; -webkit-overflow-scrolling: touch; -webkit-overflow-scrolling: -blackberry-touch; border-right: 1px solid #ccc; overflow-y: auto; overflow-x: hidden; height: 100%; }
+.sidebar { position: fixed; left: 0; bottom: 0; top: 50px; width: 220px; padding: 0; background-color: #f1f1f1; }
+.sidebar .sidebar-scroll { overflow-y: auto; overflow-x: hidden; height: 100%; border-right: 1px solid #ccc; -webkit-overflow-scrolling: touch; -webkit-overflow-scrolling: -blackberry-touch; }
+.sidebar .sidebar-scroll::-webkit-scrollbar { width: 10px; }
+.sidebar .sidebar-scroll::-webkit-scrollbar-track { border-radius: 10px; background: #eaeceb; -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); box-shadow: inset 0 0 3px rgba(0,0,0,0.3); }
+.sidebar .sidebar-scroll::-webkit-scrollbar-thumb { border-radius: 10px; background: #ccc; -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.1); box-shadow: inset 0 0 3px rgba(0,0,0,0.1); height: 20px; }
 .sidebar ul { list-style-type: none; margin: 0; padding: 0; }
 .sidebar li { border-top: 1px solid #f3f3f3; }
 .sidebar li a { color: #6d7983; }
