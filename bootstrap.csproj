@@ -208,7 +208,7 @@
     <Content Include="js\jquery.scrolltopcontrol\scrolltopcontrol.js" />
     <Content Include="js\jquery.toastr\toastr.min.js" />
     <Content Include="js\pace\pace.min.js" />
-    <Content Include="js\swiper\swiper.min.css" />
+    <Content Include="css\swiper\swiper.min.css" />
     <Content Include="js\swiper\swiper.min.js" />
     <Content Include="js\wow\wow.min.js" />
     <Content Include="leftchild.html" />
