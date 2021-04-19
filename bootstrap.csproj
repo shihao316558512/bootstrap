@@ -208,6 +208,8 @@
     <Content Include="js\jquery.scrolltopcontrol\scrolltopcontrol.js" />
     <Content Include="js\jquery.toastr\toastr.min.js" />
     <Content Include="js\pace\pace.min.js" />
+    <Content Include="js\swiper\swiper.min.css" />
+    <Content Include="js\swiper\swiper.min.js" />
     <Content Include="js\wow\wow.min.js" />
     <Content Include="leftchild.html" />
     <Content Include="message.html" />
@@ -216,6 +218,7 @@
     <Content Include="sample\carousel\fullpage.html" />
     <Content Include="sample\carousel\owlcarousel.html" />
     <Content Include="sample\carousel\owlcarousel2.html" />
+    <Content Include="sample\carousel\swiper.html" />
     <Content Include="sample\chart\flot.html" />
     <Content Include="sample\iframe\child.html" />
     <Content Include="sample\iframe\parent.html" />
